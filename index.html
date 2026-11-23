@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seismic Pulse · Everything Seismic in one place</title>
+<meta name="description" content="An independent news board for the Seismic community: daily context, shows featuring Lyron, GitHub end-of-day summaries, X and Discord.">
+<meta name="theme-color" content="#523542">
+<meta property="og:title" content="Seismic Pulse">
+<meta property="og:description" content="An independent news board for the Seismic community.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>
+/* Dil: ilk açılışta İngilizce; seçim tarayıcıda saklanır. ?lang=de gibi bir adres parametresi de dili seçer. */
+var SP_LANGS=["en","zh","ja","hi","pcm","de","fr","es","ru","tr"],SP_LANG="en";
+(function(){function ok(l){return SP_LANGS.indexOf(l)>-1}
+var m=/^sp-lang:(\w+)$/.exec(window.name||"");if(m&&ok(m[1]))SP_LANG=m[1];
+try{var t=localStorage.getItem("sp-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("sp-lang-ui");if(ok(l))SP_LANG=l}catch(e){}
+try{var q=new URLSearchParams(location.search).get("lang");if(ok(q)){SP_LANG=q;try{localStorage.setItem("sp-lang-ui",q)}catch(e){}}}catch(e){}})();
+document.documentElement.lang=SP_LANG;
+</script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="s-mark" viewBox="0 0 16.7 24" fill="none"><path opacity="0.7" d="M16.593 15.7524L16.5924 15.7516H16.5928L16.593 15.7524ZM16.2443 14.77L13.8906 11.9472L14.5557 4.52631L16.2443 14.77Z" fill="currentColor"/>
+<path opacity="0.8" d="M14.2542 2.917L13.4909 11.4356L7.95361 4.20241L8.20434 0.219971L14.2542 2.917Z" fill="currentColor"/>
+<path d="M7.5136 4.1911L1.60498 12.0439L7.72324 0.863831L7.5136 4.1911Z" fill="currentColor"/>
+<path opacity="0.95" d="M13.3909 12.0264L5.75441 23.3084L0.219727 14.6203L7.73263 4.63525L13.3909 12.0264Z" fill="currentColor"/>
+<path opacity="0.9" d="M13.1604 23.8901H6.00439L13.7108 12.3304L16.2429 15.413L13.1604 23.8901Z" fill="currentColor"/></symbol><symbol id="s-logo" viewBox="0 0 83 24" fill="none"><path opacity="0.7" d="M16.593 15.7524L16.5924 15.7516H16.5928L16.593 15.7524ZM16.2443 14.77L13.8906 11.9472L14.5557 4.52631L16.2443 14.77Z" fill="currentColor"/>
+<path opacity="0.8" d="M14.2542 2.917L13.4909 11.4356L7.95361 4.20241L8.20434 0.219971L14.2542 2.917Z" fill="currentColor"/>
+<path d="M7.5136 4.1911L1.60498 12.0439L7.72324 0.863831L7.5136 4.1911Z" fill="currentColor"/>
+<path opacity="0.95" d="M13.3909 12.0264L5.75441 23.3084L0.219727 14.6203L7.73263 4.63525L13.3909 12.0264Z" fill="currentColor"/>
+<path opacity="0.9" d="M13.1604 23.8901H6.00439L13.7108 12.3304L16.2429 15.413L13.1604 23.8901Z" fill="currentColor"/><path d="M29.4229 10.8617C29.3369 9.97612 29.0108 9.31196 28.4451 8.86917C27.8792 8.4141 27.1843 8.18656 26.3604 8.18656C26.0775 8.18656 25.776 8.22346 25.4563 8.29727C25.149 8.35877 24.8599 8.46331 24.5893 8.6109C24.331 8.75849 24.1156 8.94912 23.9435 9.18282C23.7713 9.41651 23.6852 9.6994 23.6852 10.0315C23.6852 10.339 23.7468 10.6034 23.8697 10.8248C23.9928 11.0462 24.165 11.2429 24.3862 11.4152C24.6078 11.575 24.8599 11.7103 25.1428 11.821C25.4378 11.9317 25.7516 12.0301 26.0836 12.1162L27.4303 12.4668C27.9592 12.602 28.4819 12.7619 28.9987 12.9464C29.5275 13.1309 29.9948 13.3646 30.4008 13.6475C30.8066 13.9304 31.1324 14.2809 31.3784 14.6991C31.6367 15.1173 31.7659 15.6277 31.7659 16.2303C31.7659 16.8453 31.6246 17.3865 31.3416 17.8538C31.0587 18.3089 30.6835 18.6902 30.2163 18.9977C29.7611 19.3052 29.2323 19.5327 28.6296 19.6803C28.0393 19.8279 27.4364 19.9017 26.8215 19.9017C25.3333 19.9017 24.1095 19.5327 23.1501 18.7948C22.2031 18.0568 21.6251 17.0113 21.416 15.6584H23.5192C23.5562 16.0766 23.6422 16.4763 23.7774 16.8576C23.9252 17.2389 24.1341 17.5771 24.4047 17.8723C24.6753 18.1675 25.0135 18.4073 25.4193 18.5918C25.8254 18.764 26.3111 18.8501 26.877 18.8501C27.209 18.8501 27.5472 18.8132 27.8916 18.7394C28.2483 18.6533 28.568 18.5242 28.8509 18.352C29.1462 18.1675 29.386 17.9399 29.5705 17.6694C29.755 17.3865 29.8472 17.0421 29.8472 16.6362C29.8472 16.2795 29.7673 15.9782 29.6075 15.7322C29.4474 15.4862 29.2323 15.2772 28.9617 15.1049C28.6911 14.9205 28.3775 14.7729 28.0208 14.6622C27.6641 14.5392 27.2889 14.4285 26.8955 14.3301L25.3456 13.9242C24.8905 13.8012 24.4479 13.6475 24.0172 13.463C23.5868 13.2662 23.2056 13.0264 22.8736 12.7435C22.5413 12.4483 22.2769 12.1101 22.0803 11.7288C21.8834 11.3352 21.785 10.8801 21.785 10.3636C21.785 9.79778 21.9203 9.31196 22.1908 8.90608C22.4614 8.50021 22.8181 8.16813 23.2609 7.90983C23.716 7.63925 24.2264 7.44245 24.7923 7.31948C25.3702 7.19648 25.9606 7.13499 26.5632 7.13499C27.2522 7.13499 27.8792 7.23336 28.4451 7.43016C29.0108 7.62694 29.5029 7.89753 29.921 8.24191C30.3391 8.574 30.6773 8.96757 30.9356 9.42265C31.2062 9.87772 31.3846 10.3574 31.4706 10.8617H29.4229ZM36.984 18.9054C37.5497 18.9054 38.0233 18.7271 38.4044 18.3704C38.7981 18.0014 39.0256 17.491 39.0872 16.8392H41.0059C40.9075 17.368 40.7291 17.8231 40.4709 18.2044C40.2126 18.5857 39.8927 18.9054 39.5115 19.1637C39.1425 19.4097 38.7305 19.5942 38.2754 19.7172C37.8203 19.8402 37.3467 19.9017 36.8548 19.9017C36.2028 19.9017 35.6002 19.791 35.0469 19.5696C34.5057 19.3482 34.0382 19.0346 33.6447 18.6287C33.2511 18.2228 32.9437 17.7309 32.7222 17.1528C32.5009 16.5747 32.3901 15.9229 32.3901 15.1972C32.3901 14.5207 32.4886 13.8996 32.6854 13.3338C32.8944 12.7558 33.1896 12.2576 33.571 11.8395C33.9521 11.4213 34.4134 11.0954 34.9546 10.8617C35.5079 10.6157 36.1291 10.4927 36.8178 10.4927C37.4207 10.4927 37.9802 10.5911 38.4967 10.7879C39.0256 10.9724 39.4807 11.2614 39.8621 11.655C40.2432 12.0486 40.5385 12.5467 40.7476 13.1494C40.9566 13.752 41.055 14.4654 41.0427 15.2894H34.4563C34.4687 16.3964 34.6902 17.2758 35.1206 17.9277C35.5511 18.5795 36.1722 18.9054 36.984 18.9054ZM36.7995 11.452C36.4796 11.452 36.1784 11.5074 35.8955 11.6181C35.6249 11.7165 35.3851 11.8825 35.1759 12.1162C34.9669 12.3376 34.7948 12.6266 34.6593 12.9833C34.5365 13.34 34.4687 13.7705 34.4563 14.2747H38.958C38.9703 13.7582 38.921 13.3215 38.8105 12.9649C38.712 12.6082 38.5645 12.3191 38.3677 12.0978C38.1708 11.8764 37.9372 11.7165 37.6666 11.6181C37.396 11.5074 37.1069 11.452 36.7995 11.452ZM42.6643 7.09808H44.6385V9.36732H42.6643V7.09808ZM44.6385 12.8911V18.4073C44.6385 18.6287 44.6691 18.7763 44.7308 18.8501C44.8045 18.9116 44.952 18.9546 45.1733 18.9792L45.8929 19.053V19.6803H41.4097V19.053L42.1293 18.9792C42.3508 18.9546 42.4922 18.9116 42.5536 18.8501C42.6276 18.7763 42.6643 18.6287 42.6643 18.4073V11.8948C42.6643 11.6857 42.6335 11.5504 42.5721 11.4889C42.5106 11.4152 42.3631 11.3659 42.1293 11.3413L41.4097 11.2676V10.6403H44.6568L44.6385 12.8911ZM47.8397 16.8392C47.9012 17.4172 48.1104 17.9092 48.4671 18.3151C48.8361 18.7087 49.3832 18.9054 50.109 18.9054C50.7609 18.9054 51.2651 18.7825 51.6218 18.5365C51.9785 18.2782 52.1569 17.9338 52.1569 17.5033C52.1569 17.245 52.0891 17.0298 51.9539 16.8576C51.8308 16.6731 51.6648 16.5194 51.4558 16.3964C51.259 16.2734 51.0315 16.175 50.773 16.1012C50.5148 16.0274 50.2503 15.9659 49.9799 15.9167L48.9283 15.7138C48.5961 15.6523 48.264 15.56 47.932 15.437C47.6123 15.3017 47.3232 15.1295 47.0649 14.9205C46.8066 14.6991 46.5975 14.4408 46.4376 14.1456C46.2778 13.8381 46.1978 13.4753 46.1978 13.0571C46.1978 12.602 46.3024 12.2146 46.5114 11.8948C46.7329 11.5627 47.0094 11.2983 47.3417 11.1015C47.6861 10.8924 48.0734 10.7387 48.5038 10.6403C48.9466 10.5419 49.3894 10.4927 49.8322 10.4927C50.7915 10.4927 51.6218 10.7264 52.3229 11.1938C53.0363 11.6488 53.4791 12.3253 53.6513 13.2231H51.8064C51.794 12.9772 51.7264 12.7496 51.6033 12.5405C51.4926 12.3191 51.3451 12.1346 51.1606 11.9871C50.976 11.8272 50.7548 11.7042 50.4965 11.6181C50.2503 11.532 49.9799 11.4889 49.6847 11.4889C49.5125 11.4889 49.3156 11.5074 49.0944 11.5443C48.8852 11.5689 48.6822 11.6242 48.4855 11.7103C48.2887 11.7964 48.1227 11.9194 47.9873 12.0793C47.8521 12.2269 47.7845 12.4175 47.7845 12.6512C47.7845 13.0571 47.9382 13.3769 48.2455 13.6106C48.5531 13.832 48.9898 13.998 49.5554 14.1087L50.607 14.3116C51.0254 14.3977 51.425 14.5023 51.8064 14.6253C52.1998 14.7483 52.5442 14.9205 52.8395 15.1418C53.1347 15.3509 53.3683 15.6154 53.5405 15.9351C53.7127 16.2549 53.7988 16.6485 53.7988 17.1159C53.7988 17.6202 53.6942 18.0506 53.4853 18.4073C53.2761 18.764 52.9931 19.053 52.6364 19.2744C52.2798 19.4958 51.8678 19.6557 51.4003 19.7541C50.9331 19.8525 50.441 19.9017 49.9244 19.9017C49.3956 19.9017 48.8975 19.834 48.4301 19.6987C47.9749 19.5635 47.5691 19.3667 47.2124 19.1084C46.8681 18.8501 46.5851 18.5303 46.3639 18.149C46.1547 17.7678 46.0318 17.3311 45.9948 16.8392H47.8397ZM57.3418 12.1531H57.3603C57.6185 11.6611 57.9629 11.2614 58.3934 10.9539C58.8362 10.6464 59.3897 10.4927 60.0538 10.4927C60.7795 10.4927 61.3269 10.671 61.6959 11.0277C62.077 11.3721 62.3415 11.7841 62.4892 12.2638C62.7352 11.7349 63.098 11.3106 63.5776 10.9908C64.0697 10.6587 64.6538 10.4927 65.3302 10.4927C65.8715 10.4927 66.3081 10.5911 66.6401 10.7879C66.9845 10.9724 67.2489 11.2184 67.4334 11.5258C67.618 11.8333 67.741 12.1839 67.8025 12.5774C67.8639 12.9587 67.8947 13.3461 67.8947 13.7397V18.4073C67.8947 18.6287 67.9253 18.7763 67.987 18.8501C68.0607 18.9116 68.2083 18.9546 68.4298 18.9792L69.1493 19.053V19.6803H64.6662V19.053L65.3855 18.9792C65.607 18.9546 65.7484 18.9116 65.81 18.8501C65.8838 18.7763 65.9206 18.6287 65.9206 18.4073V14.4039C65.9206 13.4322 65.8162 12.7435 65.607 12.3376C65.3978 11.9194 65.0229 11.7103 64.4817 11.7103C63.842 11.7103 63.3746 11.9502 63.0795 12.4298C62.7843 12.9095 62.6367 13.5183 62.6367 14.2563V18.4073C62.6367 18.6287 62.6676 18.7763 62.729 18.8501C62.8028 18.9116 62.9503 18.9546 63.1718 18.9792L63.8913 19.053V19.6803H59.4082V19.053L60.1278 18.9792C60.349 18.9546 60.4904 18.9116 60.552 18.8501C60.6258 18.7763 60.6626 18.6287 60.6626 18.4073V14.4039C60.6626 13.4322 60.552 12.7435 60.3305 12.3376C60.1216 11.9194 59.7464 11.7103 59.2052 11.7103C58.5779 11.7103 58.1106 11.9502 57.8031 12.4298C57.5078 12.9095 57.3603 13.5183 57.3603 14.2563V18.4073C57.3603 18.6287 57.3911 18.7763 57.4525 18.8501C57.5263 18.9116 57.674 18.9546 57.8953 18.9792L58.6149 19.053V19.6803H54.1317V19.053L54.8513 18.9792C55.0726 18.9546 55.2141 18.9116 55.2756 18.8501C55.3493 18.7763 55.3863 18.6287 55.3863 18.4073V11.8948C55.3863 11.6857 55.3555 11.5504 55.2941 11.4889C55.2324 11.4152 55.0849 11.3659 54.8513 11.3413L54.1317 11.2676V10.6403H57.3418V12.1531ZM70.3861 7.09808H72.3603V9.36732H70.3861V7.09808ZM72.3603 12.8911V18.4073C72.3603 18.6287 72.3909 18.7763 72.4525 18.8501C72.5263 18.9116 72.6738 18.9546 72.8953 18.9792L73.6146 19.053V19.6803H69.1317V19.053L69.8511 18.9792C70.0726 18.9546 70.2139 18.9116 70.2756 18.8501C70.3493 18.7763 70.3861 18.6287 70.3861 18.4073V11.8948C70.3861 11.6857 70.3555 11.5504 70.2938 11.4889C70.2324 11.4152 70.0849 11.3659 69.8511 11.3413L69.1317 11.2676V10.6403H72.3788L72.3603 12.8911ZM73.7351 15.1972C73.7351 14.4838 73.8397 13.8381 74.0486 13.2601C74.2701 12.6697 74.5775 12.1716 74.9712 11.7657C75.3647 11.3598 75.8321 11.0462 76.3733 10.8248C76.9145 10.6034 77.511 10.4927 78.1628 10.4927C78.6302 10.4927 79.0853 10.5542 79.5281 10.6772C79.9832 10.7879 80.3952 10.9724 80.7642 11.2307C81.1333 11.4767 81.4468 11.7964 81.7051 12.19C81.9633 12.5836 82.1417 13.051 82.2401 13.5921H80.3214C80.3091 13.1986 80.2354 12.8665 80.0999 12.5959C79.9647 12.3253 79.7926 12.1101 79.5834 11.9502C79.3865 11.778 79.1714 11.6611 78.9378 11.5996C78.704 11.5258 78.4765 11.4889 78.255 11.4889C77.4679 11.4889 76.8714 11.8272 76.4656 12.5036C76.0719 13.1678 75.8753 14.0657 75.8753 15.1972C75.8753 16.3287 76.0719 17.2327 76.4656 17.9092C76.8591 18.5734 77.4617 18.9054 78.2735 18.9054C78.495 18.9054 78.7225 18.8747 78.9561 18.8132C79.1899 18.7394 79.405 18.6226 79.6019 18.4627C79.7987 18.2905 79.9647 18.0691 80.0999 17.7985C80.2354 17.5279 80.3091 17.1958 80.3214 16.8023H82.2401C82.1417 17.3434 81.9633 17.8108 81.7051 18.2044C81.4468 18.598 81.1333 18.9239 80.7642 19.1822C80.3952 19.4282 79.9832 19.6065 79.5281 19.7172C79.0853 19.8402 78.6302 19.9017 78.1628 19.9017C77.511 19.9017 76.9145 19.791 76.3733 19.5696C75.8321 19.3482 75.3647 19.0346 74.9712 18.6287C74.5775 18.2228 74.2701 17.7309 74.0486 17.1528C73.8397 16.5747 73.7351 15.9229 73.7351 15.1972Z" fill="currentColor"/></symbol></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="f-en" viewBox="0 0 60 30"><clipPath id="uj"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uj)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></symbol><symbol id="f-zh" viewBox="0 0 60 40"><path fill="#EE1C25" d="M0 0h60v40H0z"/><polygon fill="#FFDE00" points="10.00,4.00 11.35,8.15 15.71,8.15 12.18,10.71 13.53,14.85 10.00,12.29 6.47,14.85 7.82,10.71 4.29,8.15 8.65,8.15"/><polygon fill="#FFDE00" points="18.29,5.03 19.24,3.93 18.49,2.69 19.83,3.26 20.78,2.16 20.66,3.61 21.99,4.18 20.58,4.50 20.45,5.95 19.70,4.70"/><polygon fill="#FFDE00" points="22.02,8.28 23.32,7.64 23.12,6.20 24.13,7.25 25.44,6.61 24.76,7.89 25.77,8.93 24.34,8.69 23.66,9.97 23.45,8.53"/><polygon fill="#FFDE00" points="22.08,13.45 23.53,13.40 23.93,12.00 24.43,13.37 25.88,13.31 24.73,14.21 25.23,15.57 24.03,14.76 22.88,15.66 23.28,14.26"/><polygon fill="#FFDE00" points="18.44,16.75 19.80,17.26 20.71,16.13 20.64,17.58 22.00,18.09 20.60,18.48 20.53,19.93 19.73,18.71 18.33,19.10 19.24,17.96"/></symbol><symbol id="f-ja" viewBox="0 0 60 40"><path fill="#fff" d="M0 0h60v40H0z"/><circle cx="30" cy="20" r="12" fill="#BC002D"/></symbol><symbol id="f-hi" viewBox="0 0 60 40"><path fill="#FF9933" d="M0 0h60v13.4H0z"/><path fill="#fff" d="M0 13.3h60v13.4H0z"/><path fill="#138808" d="M0 26.6h60V40H0z"/><g stroke="#000080" fill="none"><circle cx="30" cy="20" r="5.2" stroke-width="1"/><g stroke-width=".35"><line x1="30" y1="20" x2="35.20" y2="20.00"/><line x1="30" y1="20" x2="35.02" y2="21.35"/><line x1="30" y1="20" x2="34.50" y2="22.60"/><line x1="30" y1="20" x2="33.68" y2="23.68"/><line x1="30" y1="20" x2="32.60" y2="24.50"/><line x1="30" y1="20" x2="31.35" y2="25.02"/><line x1="30" y1="20" x2="30.00" y2="25.20"/><line x1="30" y1="20" x2="28.65" y2="25.02"/><line x1="30" y1="20" x2="27.40" y2="24.50"/><line x1="30" y1="20" x2="26.32" y2="23.68"/><line x1="30" y1="20" x2="25.50" y2="22.60"/><line x1="30" y1="20" x2="24.98" y2="21.35"/><line x1="30" y1="20" x2="24.80" y2="20.00"/><line x1="30" y1="20" x2="24.98" y2="18.65"/><line x1="30" y1="20" x2="25.50" y2="17.40"/><line x1="30" y1="20" x2="26.32" y2="16.32"/><line x1="30" y1="20" x2="27.40" y2="15.50"/><line x1="30" y1="20" x2="28.65" y2="14.98"/><line x1="30" y1="20" x2="30.00" y2="14.80"/><line x1="30" y1="20" x2="31.35" y2="14.98"/><line x1="30" y1="20" x2="32.60" y2="15.50"/><line x1="30" y1="20" x2="33.68" y2="16.32"/><line x1="30" y1="20" x2="34.50" y2="17.40"/><line x1="30" y1="20" x2="35.02" y2="18.65"/></g></g></symbol><symbol id="f-pcm" viewBox="0 0 60 40"><path fill="#008751" d="M0 0h60v40H0z"/><path fill="#fff" d="M20 0h20v40H20z"/></symbol><symbol id="f-de" viewBox="0 0 60 40"><path d="M0 0h60v40H0z"/><path fill="#DD0000" d="M0 13.3h60V40H0z"/><path fill="#FFCE00" d="M0 26.6h60V40H0z"/></symbol><symbol id="f-fr" viewBox="0 0 60 40"><path fill="#fff" d="M0 0h60v40H0z"/><path fill="#0055A4" d="M0 0h20v40H0z"/><path fill="#EF4135" d="M40 0h20v40H40z"/></symbol><symbol id="f-es" viewBox="0 0 60 40"><path fill="#AA151B" d="M0 0h60v40H0z"/><path fill="#F1BF00" d="M0 10h60v20H0z"/></symbol><symbol id="f-ru" viewBox="0 0 60 40"><path fill="#fff" d="M0 0h60v40H0z"/><path fill="#0039A6" d="M0 13.3h60V40H0z"/><path fill="#D52B1E" d="M0 26.6h60V40H0z"/></symbol><symbol id="f-tr" viewBox="0 0 60 40"><path fill="#E30A17" d="M0 0h60v40H0z"/><circle cx="22" cy="20" r="10" fill="#fff"/><circle cx="24.5" cy="20" r="8" fill="#E30A17"/><polygon fill="#fff" points="30.00,20.00 33.45,18.88 33.45,15.24 35.59,18.18 39.05,17.06 36.91,20.00 39.05,22.94 35.59,21.82 33.45,24.76 33.45,21.12"/></symbol></svg>
+<a class="skip" href="#mindshare" data-i18n="skip">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#ust" aria-label="Seismic Pulse">
+      <svg class="brand-logo" viewBox="0 0 83 24" role="img" aria-label="Seismic"><use href="#s-logo"/></svg>
+      <span class="brand-sub">Pulse</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#mindshare">Mindshare</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#github">GitHub</a>
+      <a href="#x">X</a>
+      <a href="#discord">Discord</a>
+      <a href="#haberler" data-i18n="nav_news">News</a>
+      <a href="#akis" data-i18n="nav_feed">Feed</a>
+    </nav>
+    <a class="nav-ws" id="nav-ws" href="#calisma"><svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><path d="M4 3.5h12a1 1 0 0 1 1 1V17l-7-3.5L3 17V4.5a1 1 0 0 1 1-1Z" fill="currentColor"/></svg><span class="nav-ws-label" data-i18n="ws_nav">My workspace</span><span class="ws-badge" data-ws-count></span></a>
+    <div class="top-tools">
+      <details class="lang" id="lang">
+        <summary aria-label="Language"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use id="lang-flag" href="#f-en"/></svg><span id="lang-name">English</span></summary>
+        <ul class="lang-menu"><li><button type="button" data-lang="en" lang="en"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-en"/></svg><span>English</span></button></li><li><button type="button" data-lang="zh" lang="zh"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-zh"/></svg><span>中文</span></button></li><li><button type="button" data-lang="ja" lang="ja"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-ja"/></svg><span>日本語</span></button></li><li><button type="button" data-lang="hi" lang="hi"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-hi"/></svg><span>हिन्दी</span></button></li><li><button type="button" data-lang="pcm" lang="pcm"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-pcm"/></svg><span>Naijá</span></button></li><li><button type="button" data-lang="de" lang="de"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-de"/></svg><span>Deutsch</span></button></li><li><button type="button" data-lang="fr" lang="fr"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-fr"/></svg><span>Français</span></button></li><li><button type="button" data-lang="es" lang="es"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-es"/></svg><span>Español</span></button></li><li><button type="button" data-lang="ru" lang="ru"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-ru"/></svg><span>Русский</span></button></li><li><button type="button" data-lang="tr" lang="tr"><svg class="flag" viewBox="0 0 60 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#f-tr"/></svg><span>Türkçe</span></button></li></ul>
+      </details>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch between light and dark theme">
+        <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M10 2a8 8 0 1 0 0 16V2Z" fill="currentColor"/><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="ust">
+  <section class="hero" aria-labelledby="hero-title">
+    <svg class="hero-mark" viewBox="0 0 16.7 24" aria-hidden="true"><use href="#s-mark"/></svg>
+    <div class="wrap hero-in">
+      <p class="hero-kicker" id="hero-kicker"></p>
+      <h1 id="hero-title"></h1>
+      <p class="hero-sum" id="hero-sum"></p>
+      <div class="hero-actions">
+        <a class="btn btn-light" id="hero-link" href="#" target="_blank" rel="noopener" data-i18n="open_src">Open source</a>
+        <a class="btn btn-ghost" href="#mindshare" data-i18n="ms_title">What to share today?</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap latest" aria-labelledby="latest-h">
+    <div class="latest-list">
+      <div class="latest-head"><h2 class="h-small" id="latest-h" data-i18n="latest">Latest developments</h2><span class="fine" id="updated"></span></div>
+      <ol class="rows" id="latest"></ol>
+    </div>
+    <dl class="stats" id="stats"></dl>
+  </section>
+
+  <section class="band" id="mindshare" aria-labelledby="ms-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2 id="ms-h" data-i18n="ms_title">What to share today?</h2>
+          <p class="sec-note" id="ms-note"></p>
+        </div>
+        <p class="sec-date" id="ms-date"></p>
+      </div>
+      <div class="topics" id="topics"></div>
+    </div>
+  </section>
+
+  <section class="wrap sec" id="youtube" aria-labelledby="yt-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="yt-h" data-i18n="yt_title">Shows featuring Lyron</h2>
+        <p class="sec-note" id="yt-note"></p>
+      </div>
+    </div>
+    <ol class="vids" id="yt-grid"></ol>
+  </section>
+
+  <section class="wrap sec" id="github" aria-labelledby="gh-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="gh-h" data-i18n="gh_title">GitHub end-of-day summaries</h2>
+        <p class="sec-note" id="gh-note"></p>
+      </div>
+      <a class="text-link" href="https://github.com/SeismicSystems" target="_blank" rel="noopener" data-i18n="gh_open">Open on GitHub</a>
+    </div>
+    <div class="gh">
+      <div class="gh-days" id="gh-days"></div>
+      <aside class="gh-side">
+        <h3 class="h-small"><span data-i18n="gh_live">Live commit feed</span> <span class="chip" id="gh-live-state"></span></h3>
+        <p class="fine" id="gh-live-note"></p>
+        <ol class="commits" id="gh-live"></ol>
+        <h3 class="h-small gh-repos-h" data-i18n="gh_repos">Repositories</h3>
+        <ul class="repos" id="gh-repos"></ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="wrap sec" id="x" aria-labelledby="x-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="x-h" data-i18n="x_title">Seismic on X</h2>
+        <p class="sec-note" id="x-note"></p>
+      </div>
+      <a class="text-link" href="https://x.com/SeismicSys" target="_blank" rel="noopener" data-i18n="x_open">Open @SeismicSys</a>
+    </div>
+    <div class="filters" id="x-filters" role="group"></div>
+    <ol class="posts" id="x-posts"></ol>
+  </section>
+
+  <section class="band band-quiet" id="discord" aria-labelledby="dc-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <h2 id="dc-h">Discord</h2>
+          <p class="sec-note" data-i18n="dc_note">Announcements and community spotlights. This section is updated by hand.</p>
+        </div>
+        <a class="btn btn-dark" id="dc-invite" href="https://discord.com/invite/seismic" target="_blank" rel="noopener" data-i18n="dc_join">Join Discord</a>
+      </div>
+      <div class="dc">
+        <div>
+          <h3 class="h-small" data-i18n="dc_ann">Announcements</h3>
+          <ol class="dc-list" id="dc-ann"></ol>
+        </div>
+        <div>
+          <h3 class="h-small" data-i18n="dc_spot">Spotlight</h3>
+          <ol class="dc-list" id="dc-spot"></ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap sec" id="haberler" aria-labelledby="nw-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="nw-h" data-i18n="nw_title">News related to Seismic</h2>
+        <p class="sec-note" data-i18n="nw_note">Stories from stablecoins, privacy, neobanks and payment infrastructure that touch Seismic. Each one says how it connects.</p>
+      </div>
+    </div>
+    <ol class="news" id="news"></ol>
+    <h3 class="h-small press-h" data-i18n="press_title">Seismic in the press</h3>
+    <ol class="news news-press" id="press"></ol>
+  </section>
+
+  <section class="wrap sec" id="akis" aria-labelledby="fd-h">
+    <div class="sec-head">
+      <div>
+        <h2 id="fd-h" data-i18n="fd_title">One feed, every source</h2>
+        <p class="sec-note" data-i18n="fd_note">X, YouTube, GitHub, news and Discord in date order.</p>
+      </div>
+    </div>
+    <div class="filters" id="fd-filters" role="group"></div>
+    <ol class="rows rows-feed" id="feed"></ol>
+    <button class="btn btn-outline" id="feed-more" type="button" data-i18n="fd_more">Show more</button>
+  </section>
+  <section class="ws" id="calisma" aria-labelledby="ws-h" hidden>
+    <div class="ws-hero">
+      <svg class="hero-mark" viewBox="0 0 16.7 24" aria-hidden="true"><use href="#s-mark"/></svg>
+      <div class="wrap ws-hero-in">
+        <a class="ws-back" href="#ust" data-i18n="ws_back">Back to Seismic Pulse</a>
+        <h1 id="ws-h"><span data-i18n="ws_title">My workspace</span><span class="ws-badge" data-ws-count></span></h1>
+        <p class="hero-sum" data-i18n="ws_note">Collect the items you want to work on. They are saved only in this browser, on this device, and grouped by the day you added them.</p>
+        <div class="ws-tools" id="ws-tools" hidden>
+          <a class="btn btn-light" href="https://seismicmaker.netlify.app/" target="_blank" rel="noopener" title="Seismic Maker" data-i18n="ws_visual">Create a visual</a>
+          <button class="btn btn-ghost" id="ws-copy" type="button" data-i18n="ws_copy">Copy list</button>
+          <button class="btn-link ws-clear" id="ws-clear" type="button" data-i18n="ws_clear">Clear all</button>
+        </div>
+      </div>
+    </div>
+    <div class="wrap ws-body" id="ws-list"></div>
+  </section>
+</main>
+
+<a class="ws-fab" id="ws-fab" href="#calisma" hidden><span data-i18n="ws_nav">My workspace</span><span class="ws-badge" data-ws-count></span></a>
+<div class="ws-toast" id="ws-toast" role="status" aria-live="polite" hidden><span id="ws-toast-text"></span><a href="#calisma" data-i18n="ws_open">Open workspace</a></div>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div>
+      <svg class="brand-logo" viewBox="0 0 83 24" role="img" aria-label="Seismic"><use href="#s-logo"/></svg>
+      <p class="fine foot-note" data-i18n="foot">Seismic Pulse is an independent community page, not an official Seismic channel. Nothing here is investment advice. The Seismic name and logo belong to their owner and are used in line with the brand kit.</p>
+    </div>
+    <ul class="foot-links" id="foot-links"></ul>
+  </div>
+</footer>
+
+<script src="data/pulse.js"></script>
+<script src="data/discord.js"></script>
+<script src="data/lang/en.js"></script>
+<script>if(SP_LANG!=="en")document.write('<script src="data/lang/'+SP_LANG+'.js"><\/script>');</script>
+<script src="app.js"></script>
+</body>
+</html>
