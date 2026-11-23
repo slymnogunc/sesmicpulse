@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-23T21:36:43Z",
+  "updatedAt": "2026-11-23T21:44:27Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -582,7 +582,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-23T21:36:43Z",
+    "checkedAt": "2026-11-23T21:44:27Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
