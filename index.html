@@ -218,10 +218,37 @@ document.documentElement.lang=SP_LANG;
   </div>
 </footer>
 
-<script src="data/pulse.js"></script>
-<script src="data/discord.js"></script>
-<script src="data/lang/en.js"></script>
-<script>if(SP_LANG!=="en")document.write('<script src="data/lang/'+SP_LANG+'.js"><\/script>');</script>
-<script src="app.js"></script>
+<script>
+/* Veri yükleyici: veri dosyaları önce GitHub deposundan okunur (zamanlanmış görev oraya işler;
+   Netlify yayını gerekmez), ulaşılamazsa ya da bozuksa sitedeki yedek kopya kullanılır. Sonra app.js çalışır. */
+(function(){
+  var RAW="https://raw.githubusercontent.com/slymnogunc/sesmicpulse/main/";
+  var files=["data/pulse.js","data/discord.js","data/lang/en.js"];
+  if(SP_LANG!=="en")files.push("data/lang/"+SP_LANG+".js");
+  function text(url,ms){
+    var c=window.AbortController?new AbortController():null,t=c&&setTimeout(function(){c.abort()},ms);
+    return fetch(url,{cache:"no-cache",signal:c?c.signal:undefined}).then(function(r){
+      if(t)clearTimeout(t);if(!r.ok)throw new Error(r.status);return r.text()});
+  }
+  function load(path){
+    return text(RAW+path,4000).catch(function(){return text(path,8000)}).catch(function(){return null})
+      .then(function(code){return{path:path,code:code}});
+  }
+  function run(code){(0,eval)(code)}
+  function start(){var s=document.createElement("script");s.src="app.js";document.body.appendChild(s)}
+  if(!window.fetch||!window.Promise){
+    files.forEach(function(f){document.write('<script src="'+f+'"><\/script>')});
+    document.write('<script src="app.js"><\/script>');return;
+  }
+  Promise.all(files.map(load)).then(function(list){
+    var chain=Promise.resolve();
+    list.forEach(function(f){chain=chain.then(function(){
+      try{if(f.code===null)throw new Error("yok");run(f.code)}
+      catch(e){return text(f.path,8000).then(run).catch(function(){})}
+    })});
+    return chain;
+  }).then(start,start);
+})();
+</script>
 </body>
 </html>
