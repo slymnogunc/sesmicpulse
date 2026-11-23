@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-23T21:44:27Z",
+  "updatedAt": "2026-11-23T22:50:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -35,60 +35,70 @@ window.SEISMIC_PULSE = {
     }
   ],
   "mindshare": {
-    "date": "2026-11-23",
-    "note": "Son günlerin Seismic ile ilişkili gelişmelerinden beş konu. Hafta sonu sakin geçti; konular 16–20 Kasım haberlerinden seçildi. Her konuda haberin ne olduğu ve Seismic'e nasıl bağlandığı yazıyor; içeriği kendi sesinle sen yazarsın.",
+    "date": "2026-11-24",
+    "note": "Son 48 saatin Seismic ile ilişkili gelişmelerinden beş konu. Doğrudan Seismic kaynaklı yeni bir duyuru yok; konular 23 Kasım haberlerinden seçildi. Her konuda haberin ne olduğu ve Seismic'e nasıl bağlandığı yazıyor; içeriği kendi sesinle sen yazarsın.",
     "topics": [
       {
-        "id": "moonpay-trust-bank",
-        "category": "Düzenleme",
-        "title": "MoonPay, ulusal trust bankası lisansı için OCC'ye başvurdu",
-        "angle": "MoonPay, saklama ile stablecoin ihracı, itfası ve rezerv yönetimi yapacak, mevduat toplamayan bir ulusal trust bankası kurmak için başvurdu. Circle, Ripple, Paxos ve Coinbase gibi şirketler benzer onayları daha önce almıştı; GENIUS Yasası 18 Ocak 2027'de yürürlüğe giriyor. Seismic bağlantısı: stablecoin altyapısı düzenlenen bir alana dönüşüyor ve Seismic uyumu ürünün içine gömülü sunuyor. Dikkat: bu bir başvurudur, onay değil; Seismic'in bu başvuruyla ilişkisi yok.",
+        "id": "ocbc-straitsx",
+        "category": "Bankalar",
+        "title": "OCBC ve StraitsX, stablecoin ödemesini doğrudan banka hesabına bağlayan pilotu başlattı",
+        "angle": "StraitsX'in 23 Kasım'da duyurduğu pilotta işletmeler arası sınır ötesi ödeme stablecoin ile yapılıyor, ancak alıcı parayı mevcut OCBC hesabında itibari para olarak görüyor; zincir üstü tahsilat ve uyum StraitsX'te, dönüşüm OCBC'de. İlk müşteri NTT DOCOMO Asia. Seismic bağlantısı: stablecoin'in kullanıcıya görünmeden hesabın arkasında çalışması, Seismic müşterisi neobank'ların izlediği model; Reah ve Prism aynı bölgede çalışıyor. Dikkat: seçili ödeme akışlarıyla sınırlı bir pilottur, hangi stablecoin'in kullanılacağı açıklanmadı; Seismic'in OCBC ya da StraitsX ile ilişkisi yok.",
         "source": "The Block",
-        "date": "2026-11-20",
-        "url": "https://www.theblock.co/news/business/2026-11-20-moonpay-applies-occ-national-bank-charter-444198"
+        "date": "2026-11-23",
+        "url": "https://www.theblock.co/news/business/2026-11-23-ocbc-straitsx-pilot-stablecoin-payments-444880",
+        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/singapore-unsplash-2-scaled.jpg"
       },
       {
-        "id": "payoneer-occ",
-        "category": "Sınır ötesi ödeme",
-        "title": "Payoneer, stablecoin bankası için OCC'den koşullu ön onay aldı",
-        "angle": "Payoneer, PAYO Digital Bank için koşullu ön onay aldığını duyurdu; banka nihai onaydan sonra borsalarda listelenmeyecek, yalnızca Payoneer içinde bakiye olarak kullanılacak PAYO-USD'yi çıkarmayı planlıyor. Şirket, müşterilerinin üçte birinden fazlasının stablecoin kullandığını söylüyor. Seismic bağlantısı: stablecoin'in kullanıcıya görünmeyen bir ödeme katmanı olarak kullanılması, Seismic müşterisi neobank'ların da izlediği yaklaşım. Dikkat: onay koşullu ve ön aşamada; Seismic'in Payoneer ile ilişkisi yok.",
-        "source": "Payoneer basın bülteni",
-        "date": "2026-11-20",
-        "url": "https://www.prnewswire.com/news-releases/payoneer-receives-occ-conditional-approval-to-form-stablecoin-national-trust-bank-302947358.html",
-        "image": "https://mmx.prnewswire.com/media/MS1750401/Payoneer-Logo.jpg?id=OA3094692&p=facebook"
+        "id": "kore-temel-yasa",
+        "category": "Düzenleme",
+        "title": "Güney Kore, stablecoin'leri de kapsayan Dijital Varlık Temel Yasası taslağını 24 Kasım'da görüşüyor",
+        "angle": "Finansal Hizmetler Komisyonu'nun (FSC) Sanal Varlık Komitesi taslağı 24 Kasım'da Kore saatiyle 15.00'te ele alacak, ardından ana hükümler açıklanacak. Kripto şirketleri için lisans rejimi ve won'a endeksli stablecoin ihracının, bankaların çoğunluk payına sahip olduğu konsorsiyumlara bağlanması bekleniyor; merkez bankası bu modeli savunuyor, sektör karşı çıkıyor. Seismic bağlantısı: stablecoin'i kimin çıkarabileceği, üzerine kurulan ödeme ve neobank ürünlerinin dayandığı altyapıyı belirliyor. Dikkat: bunlar henüz açıklanmamış bir taslağa ilişkin beklentiler; yasalaşmış bir kural yok ve Seismic'in bu süreçle ilişkisi yok.",
+        "source": "The Block",
+        "date": "2026-11-23",
+        "url": "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
+        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/korea-flag-scaled-e1795426962703.jpg"
       },
       {
-        "id": "altyapi-degeri",
-        "category": "Altyapı",
-        "title": "PYMNTS: stablecoin'ler emtialaşıyor, değer altyapıya kayıyor",
-        "angle": "PYMNTS'e göre stablecoin'ler birbirinin yerine geçebilen raylara dönüşüyor ve asıl değer çevrelerindeki hizmetlerde birikiyor; örnek olarak JPMorgan–DBS arasındaki 7/24 transfer ve altyapı şirketlerine giden yatırımlar veriliyor. Seismic bağlantısı: Seismic kendi stablecoin'ini çıkarmıyor; zincir, orkestrasyon, kart ve uyumu tek sağlayıcıda sunuyor. Dikkat: bu bir yorum yazısıdır ve Seismic'ten söz etmiyor.",
-        "source": "PYMNTS",
-        "date": "2026-11-17",
-        "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoins-are-becoming-commodities-the-infrastructure-around-them-isnt/",
-        "image": "https://www.pymnts.com/wp-content/uploads/2026/11/SB4-stablecoin-infrastructure-1.jpg"
+        "id": "doj-usdc-musadere",
+        "category": "Uyum",
+        "title": "ABD, Binance saldırısıyla bağlantılı 1,17 milyar dolarlık USDC için müsadere davası açtı",
+        "angle": "Adalet Bakanlığı'nın 23 Kasım'da sunduğu dilekçe, 18 blokzincirdeki 36 adreste duran USDC'yi kapsıyor ve hırsızlığı Lazarus Group'a atfediyor. Circle token'lara erişimi engelledi; dilekçeye göre mahkeme müsadere kararı verirse aynı tutarda yeni USDC çıkarıp ABD'ye devredecek. Seismic bağlantısı: düzenlenen stablecoin'lerde dondurma ve yeniden ihraç gibi uyum mekanizmalarının fiilen nasıl çalıştığını gösteren bir örnek; Seismic uyumu altyapının içine gömülü sunuyor. Dikkat: bu bir dava dilekçesidir, müsadere kararı henüz verilmedi; Seismic'in Binance, Circle ya da davayla ilişkisi yok.",
+        "source": "The Block",
+        "date": "2026-11-23",
+        "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398"
       },
       {
-        "id": "stablecoin-arz",
-        "category": "Pazar",
-        "title": "Stablecoin arzı 30 günde yaklaşık 16 milyar dolar geriledi",
-        "angle": "Nansen'e göre toplam arz yaklaşık 286 milyar dolara indi; düşüşün büyük kısmı Ethereum'daki USDT ve USDC itfalarından kaynaklandı. Bitget Wallet ise gelişen pazarlardaki bakiyelerin büyük ölçüde sabit kaldığını bildirdi. Seismic bağlantısı: gerileme alım-satım tarafında yoğunlaşırken ödeme ve birikim amaçlı kullanım daha dayanıklı görünüyor; Seismic müşterileri bu ikinci alanda çalışıyor. Dikkat: bu piyasa verisidir; fiyat ya da yön tahmini olarak sunulmamalı.",
-        "source": "crypto.news (Nansen verisi)",
-        "date": "2026-11-18",
-        "url": "https://crypto.news/stablecoin-supply-falls-16-billion-bitcoin-selloff/"
+        "id": "visa-ajan-cuzdani",
+        "category": "Ödemeler",
+        "title": "Visa, yapay zekâ ajanlarına stablecoin ile ödeme yapan deneysel cüzdanını duyurdu",
+        "angle": "Visa Crypto Labs, Visa CLI ajan cüzdanının deneysel yeni sürümünü yayımladı: onaylanan ABD'li kullanıcılar ajanlarını Visa kartlarıyla doğrulayıp kaydediyor, ajan tamamladığı ücretli görev için OUSD ile ödeme alıyor; cüzdan Tempo üzerinde çalışıyor. Seismic bağlantısı: büyük bir kart ağının stablecoin'i yeni bir ödeme akışında mutabakat aracı olarak denemesi, Seismic'in çalıştığı stablecoin ödeme altyapısı alanındaki bir gelişme. Dikkat: ürün deneysel ve sınırlı sayıda kullanıcıya açık, OUSD'nin ihraççısı haberde belirtilmiyor; Seismic'in Visa ya da Tempo ile bu duyuruda ilişkisi yok.",
+        "source": "The Block",
+        "date": "2026-11-23",
+        "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903"
       },
       {
-        "id": "lyron-octopus",
-        "category": "Kurucudan",
-        "title": "Lyron yeni yayında anlattı: bankalar stablecoin girişimlerine neden hayır diyor?",
-        "angle": "Lyron Co Ting Keh, Octopus Fintech Hub yayınına konuk oldu. Bankaları neyin ikna ettiğini, Seismic'in köprü kurmak yerine neden kendi zincirini inşa ettiğini ve uyumu neden hukuki değil mühendislik problemi olarak gördüğünü anlatıyor. Doğrudan Seismic içeriği; şu an en yeni kurucu yayını.",
-        "source": "Octopus Fintech Hub, YouTube",
-        "date": "2026-11-16",
-        "url": "https://www.youtube.com/watch?v=kmnYXG10i7Y",
-        "video": "kmnYXG10i7Y"
+        "id": "nigeria-cbn-kurallari",
+        "category": "Düzenleme",
+        "title": "Nigeria Merkez Bankası, dolar stablecoin'i ihraççılarına yerel şirket ve sermaye şartı getirdi",
+        "angle": "CBN'nin 5 Kasım'da yayımladığı kurallar, dolara endeksli token çıkarmak isteyenlerin Nigeria'da şirket kurmasını ve 15 milyar naira (yaklaşık 11 milyon dolar) ödenmiş sermaye bulundurmasını şart koşuyor; yurt dışı lisansı yerel lisansın yerine geçmiyor, algoritmik stablecoin'ler yasak. Seismic bağlantısı: stablecoin ihracının ülke bazında lisansa bağlanması, stablecoin üzerine kurulu ödeme ve neobank ürünlerinin hangi pazarda nasıl çalışabileceğini belirliyor. Dikkat: kurallar ihraççıları hedefliyor; Seismic kendi stablecoin'ini çıkarmıyor ve bu düzenlemeyle ilişkisi yok.",
+        "source": "The Rio Times",
+        "date": "2026-11-23",
+        "url": "https://www.riotimesonline.com/nigeria-cbn-stablecoin-capital-floor-nov-2026",
+        "image": "https://www.riotimesonline.com/wp-content/uploads/2026/10/nigeria-naira-banknotes-debt-2026-photo.jpg"
       }
     ]
   },
   "news": [
+    {
+      "date": "2026-11-23",
+      "source": "The Block",
+      "kind": "Düzenleme",
+      "title": "ABD Adalet Bakanlığı, Binance saldırısıyla bağlantılı 1,17 milyar dolarlık USDC'ye el konulması için dava açtı",
+      "summary": "23 Kasım'da Columbia Bölgesi federal mahkemesine sunulan hukuki müsadere dilekçesi, 18 blokzincirdeki 36 adreste duran yaklaşık 1,17 milyar dolarlık USDC'yi kapsıyor; dilekçe 29 Ekim'deki hırsızlığı Kuzey Kore bağlantılı Lazarus Group'a atfediyor. Circle bu USDC'ye erişimi engelledi ancak özgün token'ları aktaramadığını belirtiyor; dilekçeye göre şirket, mahkeme müsadere kararı verdikten sonra aynı tutarda yeni USDC çıkarıp ABD'ye devretmeyi kabul etti. Henüz müsadere kararı yok; tutar dilekçedeki bakiyelere dayanıyor.",
+      "relevance": "Düzenlenen bir stablecoin'de ihraççının mahkeme süreciyle token'ları dondurup yeniden çıkarabilmesi, stablecoin altyapısında uyum ve yaptırım mekanizmalarının nasıl işlediğini gösteriyor; Seismic de uyumu ürüne gömülü sunan bir altyapı sağlayıcısı. Bu bir dava dilekçesidir, sonuçlanmış bir karar değil; Seismic'in Binance, Circle ya da bu davayla bir ilişkisi yok.",
+      "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
+      "topic": "doj-usdc-musadere"
+    },
     {
       "date": "2026-11-23",
       "source": "OneSafe",
@@ -107,6 +117,7 @@ window.SEISMIC_PULSE = {
       "summary": "23 Kasım tarihli habere göre Nigeria Merkez Bankası'nın (CBN) 5 Kasım'da yayımladığı kurallar, dolara endeksli token ihraç etmek isteyenlerin Nigeria'da şirket kurmasını ve 15 milyar naira (yaklaşık 11 milyon dolar) ödenmiş sermaye bulundurmasını zorunlu kılıyor; naira token'ları için eşik yaklaşık 7 milyon dolar. Yurt dışı lisansı yerel lisansın yerine geçmiyor, algoritmik stablecoin'ler yasak. Dolar ihraççıları ayrıca en az 10 milyon dolar işletme likiditesi ve dolaşımdaki token'ların yüzde 2'si kadar ek rezerv tutacak. Mevcut işletmecilerin başvuru için kuralların yürürlük tarihinden itibaren 180 günü var.",
       "relevance": "Stablecoin ihracının ve dağıtımının ülke bazında lisansa bağlanması, stablecoin üzerine kurulu ödeme ve neobank ürünlerinin hangi pazarlarda nasıl çalışabileceğini belirliyor; Seismic bu ürünlere uyumu gömülü sunan altyapı sağlıyor. Kurallar ihraççıları hedefliyor; Seismic kendi stablecoin'ini çıkarmıyor ve bu düzenlemeyle bir ilişkisi yok.",
       "url": "https://www.riotimesonline.com/nigeria-cbn-stablecoin-capital-floor-nov-2026",
+      "topic": "nigeria-cbn-kurallari",
       "image": "https://www.riotimesonline.com/wp-content/uploads/2026/10/nigeria-naira-banknotes-debt-2026-photo.jpg"
     },
     {
@@ -116,7 +127,8 @@ window.SEISMIC_PULSE = {
       "title": "Visa, yapay zekâ ajanlarının tamamladığı ücretli görevler için stablecoin kazandıran deneysel cüzdanını duyurdu",
       "summary": "Visa Crypto Labs, Visa CLI ajan cüzdanının deneysel yeni sürümünü yayımladı. Onaylanan ABD'li kullanıcılar uygun Visa kartlarını tanımlayarak yapay zekâ ajanlarını doğrulayıp Visa'nın Agent Directory'sine kaydedebiliyor; ajan kabul edilen bir görevi tamamladığında ödeme OUSD ile yapılıyor. Cüzdan Tempo üzerinde Machine Payments Protocol ile çalışıyor; görev platformu Taskmarket'te ödemeler Tempo ve Base üzerinde OUSD ya da USDC ile yapılıyor. Onay ve uygunluk ölçütleri ile OUSD'nin ihraççısı haberde belirtilmiyor.",
       "relevance": "Büyük bir kart ağının stablecoin'i yeni bir ödeme akışında mutabakat aracı olarak denemesi, Seismic'in çalıştığı stablecoin ödeme altyapısı alanındaki bir gelişme. Ürün deneysel ve sınırlı sayıda onaylı ABD kullanıcısına açık; Seismic'in Visa, Tempo ya da Taskmarket ile bu duyuruda bir ilişkisi yok.",
-      "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903"
+      "url": "https://www.theblock.co/news/business/2026-11-23-visa-launches-experimental-ai-agent-wallet-for-eligible-us-users-to-earn-ousd-from-paid-tasks-444903",
+      "topic": "visa-ajan-cuzdani"
     },
     {
       "date": "2026-11-23",
@@ -126,6 +138,7 @@ window.SEISMIC_PULSE = {
       "summary": "Yerel basına dayanan habere göre Finansal Hizmetler Komisyonu (FSC) hükümetin taslağını bu hafta içinde açıklayacak. Taslağın kripto şirketleri için bildirim sistemi yerine lisans rejimi getirmesi ve won'a endeksli stablecoin ihracını, bankaların yüzde 50'den fazla paya sahip olduğu konsorsiyumlara bağlaması bekleniyor. Merkez bankası bu banka ağırlıklı modeli savunuyor, yerel sektör ise yeniliği caydıracağı gerekçesiyle karşı çıkıyor. Taslak daha sonra milletvekillerinin teklifleriyle birleştirilip Ulusal Meclis'e gönderilecek; yasalaşma tarihi belli değil.",
       "relevance": "Stablecoin ihracını kimin yapabileceği, stablecoin üzerine kurulu ödeme ve neobank ürünlerinin dayandığı altyapıyı belirliyor; Seismic bu alanda uyumu ürüne gömülü sunan bir altyapı sağlayıcısı. Haber henüz yayımlanmamış bir taslağa ilişkin beklentileri aktarıyor, kesinleşmiş kural değil; Seismic'in bu süreçle bir ilişkisi yok.",
       "url": "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
+      "topic": "kore-temel-yasa",
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/korea-flag-scaled-e1795426962703.jpg"
     },
     {
@@ -136,6 +149,7 @@ window.SEISMIC_PULSE = {
       "summary": "StraitsX'in 23 Kasım'da duyurduğu pilotta stablecoin ile yapılan ödeme, katılımcı OCBC müşterisinin mevcut banka hesabına bağlanıyor; işletme stablecoin'i kendisi yönetmeden sınır ötesi ödeme alabiliyor. Zincir üstü tahsilat ve uyum tarafını StraitsX, itibari paraya dönüşü OCBC üstleniyor. İlk katılımcı müşteri NTT DOCOMO Asia. Pilot seçili ödeme akışlarıyla sınırlı; hangi stablecoin'in ve hangi ülke hatlarının kullanılacağı açıklanmadı.",
       "relevance": "Stablecoin'in son kullanıcıya görünmeden banka hesabının arkasında çalışması, Seismic müşterisi neobank'ların da izlediği model; Reah ve Prism aynı bölgede, Güneydoğu Asya'da çalışıyor. Bu sınırlı kapsamlı bir pilottur, genel kullanıma açılmış bir ürün değil; Seismic'in OCBC ya da StraitsX ile bir ilişkisi yok.",
       "url": "https://www.theblock.co/news/business/2026-11-23-ocbc-straitsx-pilot-stablecoin-payments-444880",
+      "topic": "ocbc-straitsx",
       "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/singapore-unsplash-2-scaled.jpg"
     },
     {
@@ -280,46 +294,6 @@ window.SEISMIC_PULSE = {
       "relevance": "Bankalar kendi stablecoin'lerini kurarken gizlilik ve uyum altyapısı ihtiyacı artıyor.",
       "url": "https://blog.fizen.io/stablecoin-tokenization-news-week-nov-9-15-2026/",
       "image": "https://storage.ghost.io/c/04/ee/04eee3a6-7d95-474c-80a5-48f84338363b/content/images/2026/11/stablecoin-tokenization-news-week-nov-9-15-2026-2.png"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "The Block",
-      "kind": "Gizlilik",
-      "title": "Zama'dan ayrılan Raycash, Ethereum'da gizli stablecoin ödemelerini başlattı",
-      "summary": "Kullanıcılar stablecoin'lerini gizli token'lara sarabiliyor; ürün kapalı beta aşamasında.",
-      "relevance": "Gizli stablecoin alanında farklı bir yaklaşım (FHE). Seismic ise TEE tabanlı kendi zincirini kullanıyor.",
-      "url": "https://www.theblock.co/news/defi/2026-11-09-zama-spin-off-raycash-launches-confidential-stablecoin-payments-private-yield-ethereum-435909",
-      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/raycash-zama-protocol.png"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "Topluluk, 0xDiren",
-      "kind": "Seismic",
-      "title": "Topluluk analizi: Seismic GitHub'ında son iki ayda neler değişti?",
-      "summary": "Gas ücretinin stablecoin ile ödenmesi, bakiye sızdırabilen RPC çağrılarının kapatılması, anahtar rotasyonu ve Summit'in ilk resmi sürümleri öne çıkarılıyor.",
-      "relevance": "Doğrudan Seismic içeriği; topluluk yorumu, resmi açıklama değil.",
-      "url": "https://www.kucoin.com/news/insight/SEI/6af19e8dabae5e0007c58ce6",
-      "topic": "github-sessiz-insa",
-      "image": "https://assets.staticimg.com/@kudos/runtime/1.0.0/assets/og-ea52b6f9440e857c.jpg"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "OneSafe",
-      "kind": "Bankalar",
-      "title": "PNC Bank, kurumsal müşteriler için stablecoin ödeme pilotu başlattı",
-      "summary": "Sınırlı sayıda müşteri, Coinbase ile kurulan altyapı üzerinden stablecoin ödemesi alabiliyor.",
-      "relevance": "Geleneksel bankaların stablecoin mutabakatına ilgisi artıyor.",
-      "url": "https://www.onesafe.io/blog/stablecoin-payments-pnc-pilot-business-neobank",
-      "image": "https://cdn.prod.website-files.com/65202616cfa1bf1882f3db51/6afcfa1f013c7a1e9032057e_6afcfa1e555a187d8f9e1924_stablecoin-payments-pnc-pilot-business-neobank-header.png"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "Seismic Orchestration değişiklik günlüğü",
-      "kind": "Seismic",
-      "title": "Orchestration API: KYC gönderiminde son kullanıcı cihaz bilgileri zorunlu oldu",
-      "summary": "9 Kasım kaydına göre API anahtarıyla yapılan KYC gönderimlerinde son kullanıcının IP adresi, cihaz parmak izi ve tarayıcı bilgisi artık zorunlu; eksikse istek 400 hatasıyla reddediliyor. 6 Kasım'da banka yatırımlarına gönderen adı ve hesap bilgileri eklendi.",
-      "relevance": "Doğrudan Seismic içeriği: müşterilerin kullandığı Orchestration API'sindeki son değişiklikler.",
-      "url": "https://orchestration.seismic.systems/docs/changelog/"
     }
   ],
   "press": [
@@ -361,7 +335,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 782,
+        "views": 801,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -582,7 +556,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-23T21:44:27Z",
+    "checkedAt": "2026-11-23T22:50:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
