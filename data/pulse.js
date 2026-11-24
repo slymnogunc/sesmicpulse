@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T14:38:24Z",
+  "updatedAt": "2026-11-24T16:37:14Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,15 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "Blockchain Reporter (SNB duyurusundan)",
+      "kind": "Bankalar",
+      "title": "İsviçre Merkez Bankası ve sekiz finans kuruluşu, merkez bankası parası, banka parası ve menkul kıymetleri tek defterde buluşturacak Swiss Financial Ledger'ı inceleyecek",
+      "summary": "24 Kasım'da yayımlanan duyuruya göre İsviçre Merkez Bankası (SNB) ile UBS, SIX, Zürcher Kantonalbank, PostFinance, Banque Cantonale Vaudoise, Basler Kantonalbank, Sygnum Bank ve Seturion, tek bir dağıtık defterin merkez bankası parasını, ticari banka parasını ve menkul kıymetleri aynı anda taşıyıp taşıyamayacağını test edecek. Çalışma keşif amaçlı bir proje olarak tanımlanıyor; hedefi teknik tasarım seçeneklerini değerlendirmek ve yönetişim ile işletim çerçevesini belirlemek. Tartışmaları yürütmek üzere Helvetia Strategic Board kuruldu, İsviçre Bankalar Birliği gözlemci olarak katılıyor. Duyuruda yayına geçiş tarihi, bütçe ya da iş planı yer almıyor.",
+      "relevance": "Merkez bankalarının ve bankaların ödeme ile mutabakatı ortak bir zincir üstü altyapıya taşıma çalışmaları, Seismic'in çalıştığı zincir üstü ödeme altyapısı alanının genel yönünü gösteriyor. Dikkat: bu bir fizibilite çalışmasıdır, dijital frank ya da yayına girmiş bir sistem değil. Seismic'in SNB ya da katılımcı kurumlarla bir ilişkisi yok.",
+      "url": "https://blockchainreporter.net/swiss-financial-ledger-snb-dlt-test/"
+    },
     {
       "date": "2026-11-24",
       "source": "Fortune (yorum yazısı)",
@@ -386,7 +395,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 840,
+        "views": 854,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -476,25 +485,25 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.259"
+        "followers": "9.258"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.683"
+        "followers": "3.682"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.091"
+        "followers": "4.088"
       },
       {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.199"
+        "followers": "3.200"
       }
     ],
     "posts": [
@@ -607,7 +616,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T14:38:24Z",
+    "checkedAt": "2026-11-24T16:37:14Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
