@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T04:37:00Z",
+  "updatedAt": "2026-11-24T06:45:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "Finmo basın bülteni (PR Newswire)",
+      "kind": "Ödemeler",
+      "title": "Finmo, işletme hesabına ve hazine platformuna USDC ile USDT'yi ekledi",
+      "summary": "Sidney merkezli hazine ve ödeme platformu Finmo'nun 24 Kasım tarihli duyurusuna göre işletmeler, itibari para için kullandıkları aynı Finmo Business Account içinde USDC ve USDT tutabiliyor, müşterilerinden stablecoin ile ödeme alıp tedarikçilerine ödeme yapabiliyor ve bunları AUD, USD, EUR ile GBP gibi para birimlerine dönüştürebiliyor. Stablecoin bakiyeleri Finmo Treasury'de banka hesaplarıyla aynı görünümde, aynı kullanıcı yetkileri ve onay süreçleriyle yer alıyor. Özellik, desteklenen pazarlardaki uygun yeni ve mevcut müşterilere açık; duyuruya göre Singapur'daki kişilere sunulmuyor. Şirket, üzerinden ayda 1 milyar dolardan fazla para geçtiğini bildiriyor.",
+      "relevance": "Fiat ve stablecoin hazinesinin tek hesapta, aynı onay ve raporlama düzeniyle sunulması, Seismic müşterisi Reah'ın Güneydoğu Asya'daki KOBİ'lere sunduğu modele benziyor. Bu bir şirket basın bültenidir, rakamlar şirketin kendi beyanıdır; Seismic'in Finmo ile bir ilişkisi yok.",
+      "url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/pr-newswire/stablecoins-join-the-balance-sheet-finmo-adds-usdc-and-usdt-to-its-business-account-and-treasury-platform/2476815",
+      "image": "https://www.manilatimes.net/manilatimes/uploads/images/2026/11/24/1322466.jpg"
+    },
     {
       "date": "2026-11-23",
       "source": "Bloomingbit (Seoul Shinmun'dan)",
@@ -577,7 +587,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T04:37:00Z",
+    "checkedAt": "2026-11-24T06:45:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
