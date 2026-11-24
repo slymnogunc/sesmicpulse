@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T00:40:00Z",
+  "updatedAt": "2026-11-24T02:37:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,17 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-23",
+      "source": "Bloomingbit (Seoul Shinmun'dan)",
+      "kind": "Düzenleme",
+      "title": "Güney Kore taslağı: fintech şirketleri won stablecoin'i ihraççısının en büyük hissedarı olabilecek",
+      "summary": "Seoul Shinmun'a dayanan 23 Kasım tarihli habere göre Dijital Varlık Temel Yasası taslağı, bankaların toplamda yüzde 50 artı bir hisseye sahip olması koşuluyla fintech gibi banka dışı şirketlerin ihraççıda en büyük tekil hissedar olmasına izin veriyor. İhraççılar için asgari sermayenin 5 milyar won (yaklaşık 3,6 milyon dolar) olarak belirlendiği aktarılıyor. Düzenleme, banka öncülüğünü savunan merkez bankası ile banka dışı şirketlerin de piyasaya girmesini isteyen milletvekilleri arasında bir uzlaşı olarak yorumlanıyor. Demokrat Parti yasayı gelecek yılın ocak ayına kadar çıkarmayı hedefliyor.",
+      "relevance": "Won stablecoin'ini kimin çıkarabileceği, stablecoin üzerine kurulu ödeme ve neobank ürünlerinin dayandığı altyapıyı belirliyor; Seismic'in müşteri kitlesi de fintech ve neobank şirketleri. Bilgiler yerel basının aktardığı, henüz resmen açıklanmamış bir taslağa dayanıyor; FSC ana hükümleri 24 Kasım'daki toplantıdan sonra duyuracak. Seismic'in bu süreçle bir ilişkisi yok.",
+      "url": "https://en.bloomingbit.io/feed/news/124998",
+      "topic": "kore-temel-yasa",
+      "image": "https://media.bloomingbit.io/news/5debd174-bdd7-43c7-b777-45a7c7d99951.webp"
+    },
     {
       "date": "2026-11-23",
       "source": "Crypto Briefing",
@@ -435,7 +446,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.266"
+        "followers": "9.264"
       },
       {
         "handle": "xealistt",
@@ -453,7 +464,7 @@ window.SEISMIC_PULSE = {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.200"
+        "followers": "3.199"
       }
     ],
     "posts": [
@@ -566,7 +577,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T00:40:00Z",
+    "checkedAt": "2026-11-24T02:37:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
