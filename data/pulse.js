@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T10:36:51Z",
+  "updatedAt": "2026-11-24T12:38:05Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,15 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "Fortune (yorum yazısı)",
+      "kind": "Uyum",
+      "title": "Fortune'da yorum: Binance saldırısında hasarı stablecoin ihraççılarının dondurma yetkisi sınırladı",
+      "summary": "Kresus'un kurucusu ve CEO'su Trevor Traina, Fortune'da 24 Kasım'da yayımlanan yorum yazısında 29 Ekim'deki 6,3 milyar dolarlık Binance saldırısının blokzincirin değil, saklama tarafındaki operasyonel güvenliğin başarısızlığı olduğunu savunuyor. Yazıya göre yaklaşık 17 sıcak cüzdan yirmi dakikada boşaltıldı; 2,6–2,8 milyar dolarlık kısım stablecoin olduğu için Tether ve Circle tarafından saatler içinde donduruldu. Traina, çıkarılacak dersin saklama ile alım-satımın ayrılması ve yetkilerle işlem onaylarının daha sıkı yönetilmesi olduğunu yazıyor.",
+      "relevance": "Düzenlenen stablecoin'lerde dondurma gibi uyum mekanizmalarının kriz anında nasıl işlediğine dair bir değerlendirme; Seismic uyumu altyapının içine gömülü sunuyor. Dikkat: bu bir haber değil, self-custody cüzdan altyapısı sunan bir şirketin yöneticisinin görüş yazısıdır ve rakamlar yazarın aktardığı tahminlerdir. Seismic'in Binance, Kresus ya da bu yazıyla ilişkisi yok.",
+      "url": "https://fortune.com/2026/11/24/binance-hack-stablecoins-custody-crypto-regulation"
+    },
     {
       "date": "2026-11-24",
       "source": "Bloomingbit",
@@ -377,7 +386,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 811,
+        "views": 824,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -395,7 +404,7 @@ window.SEISMIC_PULSE = {
         "channel": "11AM w/ Seed Club",
         "title": "Lyron Co Ting Keh, Founder of Seismic, on 11AM w/ Seed Club",
         "duration": "20:18",
-        "views": 309,
+        "views": 310,
         "summary": "10 milyon dolarlık turun hemen ardından Seed Club'ın günlük yayınında Seismic'in yol haritası."
       },
       {
@@ -413,7 +422,7 @@ window.SEISMIC_PULSE = {
         "channel": "UP TOP TV",
         "title": "How Seismic's Lyron Co Ting Keh Handled His First Ever Hater on Twitter!",
         "duration": "Klip",
-        "views": 778,
+        "views": 780,
         "summary": "EP 061 yayınından kısa bir kesit."
       },
       {
@@ -431,7 +440,7 @@ window.SEISMIC_PULSE = {
         "channel": "UP TOP TV",
         "title": "EP 061 | LYRON CO TING KEH | SEISMIC",
         "duration": "49:54",
-        "views": 1568,
+        "views": 1570,
         "summary": "Stanford ve yapay zekâdan kriptoya geçiş, Seismic'in kuruluşu ve ekip kurma üzerine uzun sohbet."
       },
       {
@@ -473,19 +482,19 @@ window.SEISMIC_PULSE = {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.685"
+        "followers": "3.684"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.094"
+        "followers": "4.092"
       },
       {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.201"
+        "followers": "3.200"
       }
     ],
     "posts": [
@@ -598,7 +607,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T10:36:51Z",
+    "checkedAt": "2026-11-24T12:38:05Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
