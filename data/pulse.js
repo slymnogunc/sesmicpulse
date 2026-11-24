@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T18:35:48Z",
+  "updatedAt": "2026-11-24T20:37:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "PYMNTS (analiz yazısı)",
+      "kind": "Altyapı",
+      "title": "PYMNTS: stablecoin şirketleri kredi, hazine ve uyum hizmetleriyle müşteriyi kendi ekosisteminde tutmaya çalışıyor",
+      "summary": "24 Kasım tarihli analiz yazısına göre stablecoin ekonomisinde rekabet, parayı kimin taşıdığından çok işlemin öncesinde ve sonrasında sunulan kredi, hazine ve uyum hizmetlerine kayıyor; para daha kolay taşınır hâle gelirken finansal ilişkilerin taşınması zorlaşabilir. Yazı örnek olarak Payoneer'in PAYO Digital Bank için aldığı koşullu ön onayı, Tether Capital'in Stables yatırımını ve Visa'nın Asya-Pasifik'teki stablecoin ön fonlama pilotunu sayıyor. Fed'in kasım ayı Finansal İstikrar Raporu'nun stablecoin piyasa değerini yaklaşık 310 milyar dolar olarak verdiği ve bunun bir yıl öncesine göre pek değişmediği aktarılıyor. PYMNTS Intelligence'ın mart ayındaki araştırmasına göre orta ölçekli şirketlerin yalnızca yüzde 13'ü stablecoin kullanıyor.",
+      "relevance": "Yazının tarif ettiği katman, yani ödemenin çevresindeki hesap, kart ve uyum hizmetleri, Seismic'in fintech ve neobank'lara sunduğu altyapının bulunduğu alan. Dikkat: bu bir haber değil, analiz yazısıdır; yazıdaki piyasa değeri rakamı sitedeki DefiLlama verisinden farklı bir kaynağa dayanıyor. Yazıda Seismic geçmiyor ve anılan şirketlerin Seismic ile bir ilişkisi yok.",
+      "url": "https://www.pymnts.com/blockchain/2026/from-credit-markets-to-cross-border-payments-stablecoins-build-new-walled-gardens/",
+      "image": "https://www.pymnts.com/wp-content/uploads/2026/11/Blockchain-stablecoins-digital-assets.jpeg"
+    },
     {
       "date": "2026-11-24",
       "source": "OneSafe (Form3 basın bülteninden)",
@@ -405,7 +415,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 854,
+        "views": 864,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -495,7 +505,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.257"
+        "followers": "9.256"
       },
       {
         "handle": "xealistt",
@@ -513,7 +523,7 @@ window.SEISMIC_PULSE = {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.200"
+        "followers": "3.199"
       }
     ],
     "posts": [
@@ -626,8 +636,8 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T18:35:48Z",
-    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
+    "checkedAt": "2026-11-24T20:37:00Z",
+    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–24 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
         "name": "seismic-reth",
