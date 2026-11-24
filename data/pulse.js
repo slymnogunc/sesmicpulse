@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-23T22:50:00Z",
+  "updatedAt": "2026-11-24T00:40:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-23",
+      "source": "Crypto Briefing",
+      "kind": "Düzenleme",
+      "title": "CFTC: Bitcoin, ether ve ödeme stablecoin'leri 12 aylık işletme gideri karşılığına sayılabilecek",
+      "summary": "CFTC personelinin 23 Kasım'da yayımladığı tavsiye yazısına göre düzenlenen kuruluşlar, en az 12 aylık işletme giderini karşılayacak mali kaynak şartında Bitcoin, ether ve ödeme stablecoin'lerini kesinti uygulayarak sayabilecek. SEC çerçevesiyle uyumlu olarak Bitcoin ve ether için yüzde 20, ödeme stablecoin'leri için yüzde 2 kesinti uygulanıyor. Kripto varlıklar nakit ya da yüksek likit menkul kıymet sayılmadığı için ayrı likidite şartını karşılamıyor.",
+      "relevance": "Ödeme stablecoin'lerinin düzenleyici gözünde nakde yakın bir araç olarak ele alınması, Seismic'in çalıştığı stablecoin ödeme altyapısı alanının düzenleyici zeminini ilgilendiriyor. Dikkat: bu bir personel tavsiye yazısıdır ve yalnızca CFTC'ye kayıtlı kuruluşların mali kaynak şartını kapsar; Seismic'in bu kararla ilişkisi yok.",
+      "url": "https://cryptobriefing.com/cftc-advisory-crypto-financial-resource-requirements/",
+      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/23172530/library-cftc-lets-bitcoin-ether-and-stablecoins-count-toward-som-800x450.jpg"
+    },
     {
       "date": "2026-11-23",
       "source": "The Block",
@@ -335,7 +345,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 801,
+        "views": 804,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -556,7 +566,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-23T22:50:00Z",
+    "checkedAt": "2026-11-24T00:40:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
