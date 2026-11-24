@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T06:45:00Z",
+  "updatedAt": "2026-11-24T08:38:48Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,17 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "Bloomingbit",
+      "kind": "Düzenleme",
+      "title": "Güney Kore hükümeti Dijital Varlık Yasası taslağını açıkladı: won stablecoin'i ilk aşamada banka çoğunluklu konsorsiyumlara",
+      "summary": "Finansal Hizmetler Komisyonu (FSC), 24 Kasım'daki Sanal Varlık Komitesi toplantısının ardından 'Dijital Varlık Sektöründe Yenilik ve Kullanıcıların Korunması Yasası' taslağını yayımladı. Won'a endeksli stablecoin ihracına ilk aşamada bankaların çoğunluk payına sahip olduğu konsorsiyumlarda izin verilecek; fintech ve teknoloji şirketleri bu konsorsiyumlarda en büyük tekil hissedar olabilecek. İhraççılar en az 5 milyar won (yaklaşık 3,6 milyon dolar) sermaye bulunduracak, dolaşımdaki tutarın en az yüzde 100'ü kadar rezerv tutacak ve itibari değerden itfayı garanti edecek. Taslak ayrıca kripto borsalarında büyük hissedar payını ilke olarak yüzde 20 ile sınırlıyor ve token'ların halka satışına izin veriyor.",
+      "relevance": "23 Kasım'daki beklenti haberlerinin devamı: stablecoin'i kimin çıkarabileceği ve rezervin nasıl tutulacağı, üzerine kurulan ödeme ve neobank ürünlerinin dayandığı altyapıyı belirliyor; Seismic'in müşteri kitlesi de fintech ve neobank şirketleri. Bu bir hükümet taslağıdır, yasalaşmış bir kural değil; Ulusal Meclis'e gönderilecek ve değişebilir. Seismic'in bu süreçle bir ilişkisi yok.",
+      "url": "https://en.bloomingbit.io/feed/news/125108",
+      "topic": "kore-temel-yasa",
+      "image": "https://media.bloomingbit.io/news/190ba6bd-6af6-443b-84d6-e7a8f4781fd7.webp"
+    },
     {
       "date": "2026-11-24",
       "source": "Finmo basın bülteni (PR Newswire)",
@@ -366,7 +377,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 806,
+        "views": 811,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -456,25 +467,25 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.264"
+        "followers": "9.263"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.684"
+        "followers": "3.685"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.093"
+        "followers": "4.094"
       },
       {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.199"
+        "followers": "3.200"
       }
     ],
     "posts": [
@@ -587,7 +598,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T06:45:00Z",
+    "checkedAt": "2026-11-24T08:38:48Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
