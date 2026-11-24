@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T16:37:14Z",
+  "updatedAt": "2026-11-24T18:35:48Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "OneSafe (Form3 basın bülteninden)",
+      "kind": "Ödemeler",
+      "title": "Form3, banka ödeme API'sine Coinbase altyapısıyla stablecoin basımını ekliyor",
+      "summary": "Hesaptan hesaba ödeme platformu Form3, 24 Kasım'da müşterilerine stablecoin ile para hareketi sunmak için Coinbase altyapısını kullandığını duyurdu. Buna göre düzenlenen bir Coinbase hesabı olan müşteriler, hesabı itibari parayla fonlayıp Form3'ün API'si üzerinden Coinbase cüzdanlarında stablecoin basabilecek. Form3, müşterileri arasında Lloyds Banking Group, Santander ve Klarna'yı sayıyor; ancak bu kurumların özelliği kullanıp kullanmayacağı belirtilmedi. Duyuruda yayın tarihi, desteklenecek stablecoin'ler ve zincirler ile ücretler yer almıyor.",
+      "relevance": "Bankalara ödeme altyapısı sağlayan bir şirketin stablecoin basımını mevcut API'sine eklemesi, stablecoin ödeme altyapısının bankacılık yazılımlarının içine girdiğini gösteriyor; Seismic de fintech'lere stablecoin tabanlı bankacılık altyapısı sunuyor. Dikkat: bu bir duyurudur; yayın tarihi ve kapsam açıklanmadı. Seismic'in Form3 ya da Coinbase ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.onesafe.io/blog/form3-coinbase-stablecoin-minting-bank-payments-api",
+      "image": "https://cdn.prod.website-files.com/65202616cfa1bf1882f3db51/6b05b25aac4e1a109790659c_6b05b235b2a2164a12077fc3_form3-coinbase-stablecoin-minting-bank-payments-api.webp"
+    },
     {
       "date": "2026-11-24",
       "source": "Blockchain Reporter (SNB duyurusundan)",
@@ -485,19 +495,19 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.258"
+        "followers": "9.257"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.682"
+        "followers": "3.680"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.088"
+        "followers": "4.086"
       },
       {
         "handle": "heathcliff_eth",
@@ -616,7 +626,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T16:37:14Z",
+    "checkedAt": "2026-11-24T18:35:48Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–23 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
