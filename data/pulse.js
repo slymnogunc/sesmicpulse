@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T16:36:51Z",
+  "updatedAt": "2026-11-25T18:38:07Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Crypto Briefing (Tether duyurusundan)",
+      "kind": "Ödemeler",
+      "title": "Tether, USDT ve XAUT kullanımını Latin Amerika'da yaymak için Arjantinli fintech Lemon'a yatırım yaptı",
+      "summary": "Tether, 25 Kasım'da Arjantinli finans uygulaması Lemon'a yatırım yaptığını açıkladı; yatırımın tutarı açıklanmadı. Lemon, USDT'ye dayalı dijital dolar bakiyesi, sınır ötesi transfer ve Visa kartı sunuyor. Ortaklık ödeme, birikim ve uluslararası transferde daha düşük maliyetli ürünler geliştirmeyi hedefliyor. Chainalysis'in 2026 raporuna göre Arjantin 88,5 milyar dolarlık hacimle bölgenin ikinci büyük kripto ekonomisi.",
+      "relevance": "Bir stablecoin ihraççısının doğrudan tüketici finans uygulamasına ortak olması, stablecoin bakiyeli hesap ve kart ürünlerinin dağıtım kanalı olarak önem kazandığını gösteriyor; Seismic de bu tür neobank ürünlerine altyapı sağlıyor. Seismic'in Tether ya da Lemon ile açıklanmış bir ilişkisi yok.",
+      "url": "https://cryptobriefing.com/tether-invests-lemon-latin-america/",
+      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25082037/library-tether-invests-in-lemon-to-expand-digital-asset-use-in-l-800x450.jpg"
+    },
     {
       "date": "2026-11-25",
       "source": "crypto.news (Hinkal duyurusundan)",
@@ -416,6 +426,15 @@ window.SEISMIC_PULSE = {
     },
     {
       "date": "2026-11-18",
+      "source": "Seismic Orchestration (değişiklik günlüğü)",
+      "kind": "Seismic",
+      "title": "Seismic Orchestration API'sine EUR ve GBP sanal hesapları için yeni banka seçeneği eklendi: CLEAR_JUNCTION",
+      "summary": "Seismic Orchestration değişiklik günlüğünün 18 Kasım kaydına göre CLEAR_JUNCTION, EUR ve GBP için yeni bir sanal hesap bankası olarak eklendi. Bu seçenek, orada onaylanmış müşteriler için banka listesinde görünüyor ve EUR ya da GBP sanal hesabı açılırken banka olarak seçilebiliyor. Kayıt yalnızca API değişikliğini anlatıyor; ayrı bir ortaklık duyurusu değil.",
+      "relevance": "Doğrudan Seismic kaynağı: Seismic'in neobank'lara sunduğu orkestrasyon API'sinde euro ve sterlin hesapları için banka seçeneklerinin genişlediğini gösteriyor.",
+      "url": "https://orchestration.seismic.systems/docs/changelog/"
+    },
+    {
+      "date": "2026-11-18",
       "source": "The Block",
       "kind": "Ödemeler",
       "title": "Visa Direct, stablecoin ile ön fonlamayı Asya-Pasifik'e genişletiyor",
@@ -518,7 +537,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 896,
+        "views": 899,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -608,7 +627,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.257"
+        "followers": "9.256"
       },
       {
         "handle": "xealistt",
@@ -644,7 +663,7 @@ window.SEISMIC_PULSE = {
         "title": "Seismic artık Reah'ın bankacılık altyapısını sağlıyor",
         "summary": "Reah, Güneydoğu Asya'daki KOBİ'lere fiat ve stablecoin hazinesi, global kartlar ve yerel ödeme hatlarını tek platformda sunuyor.",
         "url": "https://x.com/SeismicSys/status/2082850036761731506",
-        "likes": 558,
+        "likes": 559,
         "reposts": 337,
         "views": "78 B",
         "pinned": true
@@ -672,7 +691,7 @@ window.SEISMIC_PULSE = {
         "url": "https://x.com/SeismicSys/status/2072004201337565505",
         "likes": 660,
         "reposts": 313,
-        "views": "70 B"
+        "views": "71 B"
       },
       {
         "handle": "lyronctk",
@@ -739,7 +758,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T16:36:51Z",
+    "checkedAt": "2026-11-25T18:38:07Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
