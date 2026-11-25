@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T10:38:55Z",
+  "updatedAt": "2026-11-25T12:37:04Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Crypto Briefing (Glassnode ve NOWPayments raporundan)",
+      "kind": "Pazar",
+      "title": "Glassnode ve NOWPayments raporu: zincir üstü stablecoin hacmi, işletmelerin gerçekte ödeme aldığı ağları göstermiyor",
+      "summary": "Crypto Briefing'in 25 Kasım tarihli haberine göre Glassnode'un ödeme işlemcisi NOWPayments ile hazırladığı ve 10 Kasım'da yayımladığı \"Stablecoins in Commerce\" raporu, USDT ve USDC'nin zincir üstü verilerini NOWPayments'ın Eylül 2025 – Eylül 2026 dönemindeki gerçek işlem kayıtlarıyla karşılaştırıyor. Tron ve BNB Chain üzerindeki USDT, NOWPayments'a gelen stablecoin ödemelerinin değerce yaklaşık yüzde 75'ini oluştururken aynı iki rota zincir üstü transfer değerinin yalnızca yüzde 14'ünü oluşturuyor. Rapora göre aktif adres dağılımı, işletme ödemelerini ham transfer hacminden iki kat daha iyi izliyor; USDC işlem sayısı 2026'nın ilk yarısında bir önceki yıla göre yüzde 209,02 arttı, USDT ise hacimde yüzde 66,92 payla önde kaldı.",
+      "relevance": "Stablecoin'in ticarette gerçekte hangi ağlarda ve hangi büyüklükte kullanıldığını ölçen veriler, Seismic'in çalıştığı stablecoin ödeme altyapısı alanının genel tablosuna dair bağlam sunuyor. Dikkat: raporun işletme tarafındaki verisi tek bir ödeme işlemcisine, NOWPayments'a dayanıyor; sonuçları o şirketin müşteri karması biçimlendiriyor ve tüm pazara genellenemez. Raporda Seismic geçmiyor; Seismic'in Glassnode ya da NOWPayments ile ilişkisi yok.",
+      "url": "https://cryptobriefing.com/glassnode-nowpayments-stablecoin-payments-report/",
+      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25072359/library-glassnode-and-nowpayments-find-stablecoin-volume-mislead-800x450.jpg"
+    },
     {
       "date": "2026-11-25",
       "source": "The Block",
@@ -469,7 +479,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 878,
+        "views": 888,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -559,25 +569,25 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.254"
+        "followers": "9.252"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.677"
+        "followers": "3.676"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.085"
+        "followers": "4.083"
       },
       {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.199"
+        "followers": "3.197"
       }
     ],
     "posts": [
@@ -690,7 +700,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T10:38:55Z",
+    "checkedAt": "2026-11-25T12:37:04Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
