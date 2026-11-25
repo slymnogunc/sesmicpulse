@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T20:36:35Z",
+  "updatedAt": "2026-11-25T22:39:33Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -35,61 +35,80 @@ window.SEISMIC_PULSE = {
     }
   ],
   "mindshare": {
-    "date": "2026-11-25",
-    "note": "Son 48 saatin Seismic ile ilişkili gelişmelerinden beş konu. Doğrudan Seismic kaynaklı yeni bir duyuru yok; konular 24 Kasım haberlerinden seçildi. Her konuda haberin ne olduğu ve Seismic'e nasıl bağlandığı yazıyor; içeriği kendi sesinle sen yazarsın.",
+    "date": "2026-11-26",
+    "note": "Son 48 saatin Seismic ile ilişkili gelişmelerinden altı konu. Doğrudan Seismic kaynaklı yeni bir duyuru yok; konular 25 Kasım haberlerinden seçildi. Her konuda haberin ne olduğu ve Seismic'e nasıl bağlandığı yazıyor; içeriği kendi sesinle sen yazarsın.",
     "topics": [
       {
-        "id": "kore-temel-yasa",
-        "category": "Düzenleme",
-        "title": "Güney Kore hükümeti Dijital Varlık Yasası taslağını açıkladı: won stablecoin'i ilk aşamada banka çoğunluklu konsorsiyumlara",
-        "angle": "FSC, 24 Kasım'daki Sanal Varlık Komitesi toplantısının ardından hükümet taslağını yayımladı: won'a endeksli stablecoin'i ilk aşamada yalnızca bankaların çoğunluk payına sahip olduğu konsorsiyumlar çıkarabilecek, fintech ve teknoloji şirketleri bu konsorsiyumlarda en büyük tekil hissedar olabilecek; ihraççılar en az 5 milyar won sermaye ve dolaşımdaki tutarın en az yüzde 100'ü kadar rezerv tutacak, itibari değerden itfayı garanti edecek. Seismic bağlantısı: stablecoin'i kimin çıkarabileceği ve rezervin nasıl tutulacağı, üzerine kurulan ödeme ve neobank ürünlerinin dayandığı altyapıyı belirliyor. Dikkat: bu bir hükümet taslağıdır, yasalaşmış bir kural değil; Ulusal Meclis'e gönderilecek ve değişebilir. Seismic'in bu süreçle ilişkisi yok.",
-        "source": "Bloomingbit",
-        "date": "2026-11-24",
-        "url": "https://en.bloomingbit.io/feed/news/125108",
-        "image": "https://media.bloomingbit.io/news/190ba6bd-6af6-443b-84d6-e7a8f4781fd7.webp"
-      },
-      {
-        "id": "form3-coinbase",
-        "category": "Ödemeler",
-        "title": "Form3, banka ödeme API'sine Coinbase altyapısıyla stablecoin basımını ekliyor",
-        "angle": "Hesaptan hesaba ödeme platformu Form3, 24 Kasım'da müşterilerine stablecoin ile para hareketi sunmak için Coinbase altyapısını kullandığını duyurdu: düzenlenen bir Coinbase hesabı olan müşteriler hesabı itibari parayla fonlayıp Form3'ün API'si üzerinden stablecoin basabilecek. Seismic bağlantısı: bankalara ödeme altyapısı sağlayan bir şirketin stablecoin basımını mevcut API'sine eklemesi, stablecoin'in bankacılık yazılımlarının içine girdiğini gösteriyor; Seismic de fintech'lere stablecoin tabanlı bankacılık altyapısı sunuyor. Dikkat: yayın tarihi, desteklenecek stablecoin'ler, zincirler ve ücretler açıklanmadı; Form3'ün müşterisi olarak saydığı Lloyds Banking Group, Santander ve Klarna'nın özelliği kullanıp kullanmayacağı belirtilmedi. Seismic'in Form3 ya da Coinbase ile açıklanmış bir ilişkisi yok.",
-        "source": "OneSafe (Form3 basın bülteninden)",
-        "date": "2026-11-24",
-        "url": "https://www.onesafe.io/blog/form3-coinbase-stablecoin-minting-bank-payments-api",
-        "image": "https://cdn.prod.website-files.com/65202616cfa1bf1882f3db51/6b05b25aac4e1a109790659c_6b05b235b2a2164a12077fc3_form3-coinbase-stablecoin-minting-bank-payments-api.webp"
-      },
-      {
-        "id": "swiss-financial-ledger",
+        "id": "sbi-smfg-solana",
         "category": "Bankalar",
-        "title": "İsviçre Merkez Bankası ve sekiz finans kuruluşu, merkez bankası parası, banka parası ve menkul kıymetleri tek defterde buluşturacak Swiss Financial Ledger'ı inceleyecek",
-        "angle": "24 Kasım'da yayımlanan duyuruya göre İsviçre Merkez Bankası (SNB) ile aralarında UBS, SIX ve Sygnum Bank'ın bulunduğu sekiz finans kuruluşu, tek bir dağıtık defterin merkez bankası parasını, ticari banka parasını ve menkul kıymetleri aynı anda taşıyıp taşıyamayacağını inceleyecek; tartışmaları yürütmek üzere Helvetia Strategic Board kuruldu. Seismic bağlantısı: merkez bankalarının ve bankaların ödeme ile mutabakatı ortak bir zincir üstü altyapıya taşıma çalışmaları, Seismic'in çalıştığı zincir üstü ödeme altyapısı alanının genel yönünü gösteriyor. Dikkat: bu keşif amaçlı bir fizibilite çalışmasıdır, dijital frank ya da yayına girmiş bir sistem değil; duyuruda yayına geçiş tarihi, bütçe ya da iş planı yok. Seismic'in SNB ya da katılımcı kurumlarla ilişkisi yok.",
-        "source": "Blockchain Reporter (SNB duyurusundan)",
-        "date": "2026-11-24",
-        "url": "https://blockchainreporter.net/swiss-financial-ledger-snb-dlt-test/"
+        "title": "Japon SBI ve SMFG, Solana Foundation ile stablecoin ödemeleri ve token'laştırma için ortak girişim kurdu",
+        "angle": "SBI Holdings, Sumitomo Mitsui Financial Group ve Solana Foundation, 25 Kasım tarihli habere göre SBI Solana Global adlı ortak girişim için anlaşmaları tamamladı; şirket stablecoin tabanlı yurt içi ve sınır ötesi ödemeler, token'laştırma ve zincir üstü varlık yönetimi üzerinde çalışacak. Seismic bağlantısı: büyük bankacılık gruplarının stablecoin ödemelerini ayrı bir şirketle zincir üstüne taşıması, Seismic'in fintech ve neobank'lara sunduğu stablecoin tabanlı bankacılık altyapısıyla aynı alandaki bir gelişme. Dikkat: duyuru şirketin kuruluşunu anlatıyor, yayına girmiş bir ödeme ürününü değil; sermaye, yayın tarihleri ve kullanılacak stablecoin açıklanmadı, varlık ve müşteri rakamları Solana Foundation'ın beyanı. Girişim Solana üzerinde çalışacak; Seismic'in SBI, SMFG ya da Solana Foundation ile açıklanmış bir ilişkisi yok.",
+        "source": "The Block",
+        "date": "2026-11-25",
+        "url": "https://www.theblock.co/news/business/2026-11-25-japans-sbi-smfg-tap-solana-stablecoin-tokenization-joint-venture-446131",
+        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/gettyimages-2269158222-170667a-e1795600393424.jpg"
       },
       {
-        "id": "finmo-stablecoin-hazine",
+        "id": "hinkal-arbitrum",
+        "category": "Gizlilik",
+        "title": "Arbitrum'da Hinkal ile stablecoin'ler doğrudan gizli bakiyeye yatırılabiliyor",
+        "angle": "Gizlilik protokolü Hinkal, 25 Kasım'da Arbitrum'da stablecoin'lerin doğrudan gizli bakiyeye yatırılmasını açtı: banka kartıyla alınan USDC, USDT ya da USDG önce açık bir cüzdana uğramadan gizli bakiyeye geçiyor; gelen yatırımlar Chainalysis ile taranıyor ve hesap sahibi düzenleyicilere ya da denetçilere salt okunur görüntüleme anahtarı verebiliyor. Seismic bağlantısı: işlem ayrıntıları herkese açık olmadan uyumun nasıl sağlanacağı, Seismic'in de çalıştığı soru. Dikkat: yöntem farklı; Hinkal sıfır bilgi ispatlarıyla çalışan bir protokol, Seismic ise TEE tabanlı kendi zincirini kuruyor. Hinkal kimlik temelli KYC yapmıyor, bu yükümlülük altyapıyı kullanan işletmelerde kalıyor. Seismic'in Hinkal ya da Arbitrum ile açıkladığı bir ilişki yok.",
+        "source": "crypto.news (Hinkal duyurusundan)",
+        "date": "2026-11-25",
+        "url": "https://crypto.news/arbitrum-enables-direct-private-stablecoin-deposits-through-hinkal/",
+        "image": "https://media.crypto.news/2025/08/crypto-news-wallet-planet.webp"
+      },
+      {
+        "id": "eba-defi-stablecoin",
+        "category": "Düzenleme",
+        "title": "Avrupa Bankacılık Otoritesi: stablecoin'ler DeFi'nin merkezinde; erişim sağlayan şirketler için ek kurallar değerlendirilmeli",
+        "angle": "Avrupa Bankacılık Otoritesi (EBA), 25 Kasım'da duyurduğu araştırmada stablecoin'lerin merkeziyetsiz finansta borç verme, borç alma ve alım-satım için yaygın biçimde kullanıldığını belirtti ve borç verme protokollerine erişim sağlayan kripto hizmet sağlayıcılarına ek yükümlülük gerekip gerekmediğini incelemesi için Avrupa Komisyonu'na çağrısını yineledi; MiCA'daki stablecoin faiz yasağının dolanılması olasılığına da işaret etti. Seismic bağlantısı: stablecoin'lerin getiri ürünlerine nasıl bağlandığına dair düzenleyici görüşü, stablecoin üzerine finansal ürün kuran fintech ve neobank'ların uyum çerçevesini etkileyebilir. Dikkat: bu bir araştırma ve değerlendirme çağrısıdır, yürürlüğe girmiş bir kural değil. Seismic'in bu çalışmayla ilişkisi yok.",
+        "source": "crypto.news (EBA duyurusundan)",
+        "date": "2026-11-25",
+        "url": "https://crypto.news/eba-stablecoin-defi-risks-mica-regulatory-oversight/",
+        "image": "https://media.crypto.news/2025/09/crypto-news-If-you-touch-money-youll-eventually-touch-stablecoins-option02.webp"
+      },
+      {
+        "id": "deel-card",
         "category": "Ödemeler",
-        "title": "Finmo, işletme hesabına ve hazine platformuna USDC ile USDT'yi ekledi",
-        "angle": "Sidney merkezli hazine ve ödeme platformu Finmo'nun 24 Kasım tarihli duyurusuna göre işletmeler, itibari para için kullandıkları aynı hesapta USDC ve USDT tutabiliyor, stablecoin ile ödeme alıp yapabiliyor ve bunları AUD, USD, EUR ile GBP gibi para birimlerine dönüştürebiliyor; stablecoin bakiyeleri hazine ekranında banka hesaplarıyla aynı yetki ve onay süreçleriyle görünüyor. Seismic bağlantısı: fiat ve stablecoin hazinesinin tek hesapta sunulması, Seismic müşterisi Reah'ın Güneydoğu Asya'daki KOBİ'lere sunduğu modele benziyor. Dikkat: bu bir şirket basın bültenidir, aylık 1 milyar doları aşan hacim şirketin kendi beyanıdır; özellik yalnızca desteklenen pazarlardaki uygun müşterilere açık ve Singapur'daki kişilere sunulmuyor. Seismic'in Finmo ile ilişkisi yok.",
-        "source": "Finmo basın bülteni (PR Newswire)",
-        "date": "2026-11-24",
-        "url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/pr-newswire/stablecoins-join-the-balance-sheet-finmo-adds-usdc-and-usdt-to-its-business-account-and-treasury-platform/2476815",
-        "image": "https://www.manilatimes.net/manilatimes/uploads/images/2026/11/24/1322466.jpg"
+        "title": "Deel, serbest çalışanların stablecoin bakiyesini harcayabildiği Visa kartını 26 pazarda çıkardı",
+        "angle": "Deel, 24 Kasım'da Deel Card'ı duyurdu: serbest çalışanlar dolar bazlı stablecoin DLUSD'de tuttukları bakiyeyi Latin Amerika, Karayipler ve Afrika'daki 26 pazarda Visa'nın geçtiği yerlerde harcayabiliyor. Habere göre kart Stripe Issuing ile çalışıyor, DLUSD'yi Bridge ihraç ediyor, cüzdanı Privy işletiyor ve kartı Lead Bank çıkarıyor. Seismic bağlantısı: sınır ötesi çalışanların kazancını stablecoin olarak tutup kartla harcaması, Seismic altyapısını kullanan Avvio'nun global çalışanlara sunduğu hesaplarla aynı ihtiyaca yöneliyor. Dikkat: cüzdanlarda tutulan 45 milyon dolar gibi rakamlar haberde aktarılan şirket verileridir. Seismic'in Deel ile ilişkisi yok.",
+        "source": "FinanceX Magazine",
+        "date": "2026-11-25",
+        "url": "https://www.financexmagazine.com/post/stablecoin-payroll-gets-its-spend-layer-as-deel-launches-a-card",
+        "image": "https://static.wixstatic.com/media/6fe4c8_952878cfcf1942ec859438b0a19010a3~mv2.png/v1/fill/w_900,h_675,al_c,q_90/6fe4c8_952878cfcf1942ec859438b0a19010a3~mv2.png"
       },
       {
-        "id": "pymnts-duvarli-bahceler",
-        "category": "Altyapı",
-        "title": "PYMNTS: stablecoin şirketleri kredi, hazine ve uyum hizmetleriyle müşteriyi kendi ekosisteminde tutmaya çalışıyor",
-        "angle": "PYMNTS'in 24 Kasım tarihli analiz yazısına göre stablecoin ekonomisinde rekabet, parayı kimin taşıdığından çok işlemin öncesinde ve sonrasında sunulan kredi, hazine ve uyum hizmetlerine kayıyor; yazı örnek olarak Payoneer'in PAYO Digital Bank için aldığı koşullu ön onayı, Tether Capital'in Stables yatırımını ve Visa'nın Asya-Pasifik'teki stablecoin ön fonlama pilotunu sayıyor. Seismic bağlantısı: yazının tarif ettiği katman, yani ödemenin çevresindeki hesap, kart ve uyum hizmetleri, Seismic'in fintech ve neobank'lara sunduğu altyapının bulunduğu alan. Dikkat: bu bir haber değil, analiz yazısıdır; yazıda Seismic geçmiyor ve anılan şirketlerin Seismic ile ilişkisi yok.",
-        "source": "PYMNTS (analiz yazısı)",
-        "date": "2026-11-24",
-        "url": "https://www.pymnts.com/blockchain/2026/from-credit-markets-to-cross-border-payments-stablecoins-build-new-walled-gardens/",
-        "image": "https://www.pymnts.com/wp-content/uploads/2026/11/Blockchain-stablecoins-digital-assets.jpeg"
+        "id": "aave-app",
+        "category": "Pazar",
+        "title": "Aave Labs, stablecoin birikim uygulaması Aave App'i herkese açtı; erken erişimde bakiyeler 63 milyon doları geçti",
+        "angle": "Aave Labs, 25 Kasım'da Aave App'i herkese açtı; şirkete göre erken erişim döneminde bakiyeler üç aydan kısa sürede 63 milyon doları geçti. Uygulama banka hesabından para yatırılan, varlıkların kontrolünün kullanıcıda kaldığı hesaplar sunuyor ve yatırılan tutarları Aave Protocol'ün borç verme piyasalarına aktarıyor. Seismic bağlantısı: stablecoin bakiyesini banka bağlantılı bir tüketici uygulamasında sunmak, Seismic'in altyapı sağladığı neobank ürünlerinin de çalıştığı alan. Dikkat: habere göre bu fonlar banka mevduatı değil ve FDIC ya da SIPC güvencesi kapsamında değil; açıklanan oranlar değişkendir ve şirketin beyanıdır, yatırım önerisi olarak sunulmamalı. Seismic'in Aave Labs ile açıklanmış bir ilişkisi yok.",
+        "source": "The Block",
+        "date": "2026-11-25",
+        "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+      },
+      {
+        "id": "tether-lemon",
+        "category": "Ödemeler",
+        "title": "Tether, USDT ve XAUT kullanımını Latin Amerika'da yaymak için Arjantinli fintech Lemon'a yatırım yaptı",
+        "angle": "Tether, 25 Kasım'da Arjantinli finans uygulaması Lemon'a yatırım yaptığını açıkladı; tutar açıklanmadı. Lemon, USDT'ye dayalı dijital dolar bakiyesi, sınır ötesi transfer ve Visa kartı sunuyor. Seismic bağlantısı: bir stablecoin ihraççısının doğrudan tüketici finans uygulamasına ortak olması, stablecoin bakiyeli hesap ve kart ürünlerinin dağıtım kanalı olarak önem kazandığını gösteriyor; Seismic de bu tür neobank ürünlerine altyapı sağlıyor. Dikkat: yatırımın tutarı ve koşulları bilinmiyor. Seismic'in Tether ya da Lemon ile açıklanmış bir ilişkisi yok.",
+        "source": "Crypto Briefing (Tether duyurusundan)",
+        "date": "2026-11-25",
+        "url": "https://cryptobriefing.com/tether-invests-lemon-latin-america/",
+        "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25082037/library-tether-invests-in-lemon-to-expand-digital-asset-use-in-l-800x450.jpg"
       }
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "The Block",
+      "kind": "Pazar",
+      "title": "Aave Labs, stablecoin birikim uygulaması Aave App'i herkese açtı; erken erişimde bakiyeler 63 milyon doları geçti",
+      "summary": "The Block'un 25 Kasım tarihli haberine göre Aave Labs, Aave App'i aynı gün herkese açtı; şirketin açıklamasına göre erken erişim döneminde kullanıcı bakiyeleri üç aydan kısa sürede 63 milyon doları aştı. Uygulama, e-posta ya da telefonla açılan ve varlıkların kontrolünün kullanıcıda kaldığı hesaplar sunuyor; yatırılan tutarlar Aave Protocol'ün borç verme piyasalarına aktarılıyor. Doğrulanmış kullanıcılara 100.000 dolara kadar bakiyede 90 gün boyunca yüzde 6 değişken taban oran veriliyor; oran, davet ve düzenli yatırımla yüzde 7,25'e çıkabiliyor ve uygunluk pazara göre değişiyor. Banka bağlantısı ABD'de (New York hariç) lisanslı üçüncü taraflar Bridge ve Astra, Birleşik Krallık ve AEA'da Push by Aave Labs üzerinden sağlanıyor; USDC, USDT ve GHO yatırımları sekiz ağda kabul ediliyor.",
+      "relevance": "Stablecoin bakiyesini banka hesabına bağlı bir tüketici uygulamasında getiriyle sunmak, Seismic'in altyapı sağladığı neobank ürünlerinin de çalıştığı alan. Dikkat: habere göre bu fonlar banka mevduatı değil ve FDIC ya da SIPC güvencesi kapsamında değil; Balance Protection, koşullara bağlı ve takdire dayalı bir program. Oranlar değişkendir ve şirketin beyanıdır; bu bir yatırım önerisi değildir. Seismic'in Aave Labs ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+    },
     {
       "date": "2026-11-25",
       "source": "Borderless AI basın bülteni (Business Wire)",
@@ -546,7 +565,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 905,
+        "views": 906,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -636,13 +655,13 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.247"
+        "followers": "9.239"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.673"
+        "followers": "3.670"
       },
       {
         "handle": "NoxxW3",
@@ -654,7 +673,7 @@ window.SEISMIC_PULSE = {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.197"
+        "followers": "3.195"
       }
     ],
     "posts": [
@@ -767,7 +786,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T20:36:35Z",
+    "checkedAt": "2026-11-25T22:39:33Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
