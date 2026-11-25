@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T06:36:00Z",
+  "updatedAt": "2026-11-25T08:38:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,28 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Cointelegraph",
+      "kind": "Düzenleme",
+      "title": "Cointelegraph: Güney Kore taslağı won stablecoin'i yarışını ihraçtan konsorsiyum kurmaya taşıyabilir",
+      "summary": "25 Kasım tarihli habere göre Finansal Hizmetler Komisyonu'nun (FSC) 24 Kasım'da açıkladığı taslak, won stablecoin'i ihracını ilk aşamada bankaların toplamda çoğunluk payına sahip olduğu konsorsiyumlarla sınırlıyor; fintech ya da teknoloji şirketleri yine de en büyük tekil hissedar olabiliyor. Tiger Research'e göre Bankacılık Yasası'ndaki yüzde 15'lik sınır uygulanırsa çoğunluğa ulaşmak için her konsorsiyumda en az dört banka gerekecek. Haber, KB Financial'ın mayıs ayında işyeri ödemeleri ve sınır ötesi havaleyi kapsayan bir won stablecoin'i pilotunu tamamladığını, Toss'un sahibi Viva Republica'nın ise temmuzda Optimism ve Sunnyside Labs ile stablecoin ödemelerini test etmek için ortaklık kurduğunu hatırlatıyor. Tasarının Ulusal Meclis'ten geçmesi gerekiyor; Tiger Research, yasanın ilanından bir yıl sonra yürürlüğe girmesini ve hissedarlık kurallarının uygulama kararnamelerine bırakılmasını bekliyor.",
+      "relevance": "24 Kasım'daki taslak haberinin devamı: stablecoin'i kimin çıkarabileceği kadar hangi banka ve fintech'lerin bir araya geleceği de üzerine kurulan ödeme ve neobank ürünlerinin altyapısını belirliyor; Seismic'in müşteri kitlesi de fintech ve neobank şirketleri. Dikkat: dört banka hesabı ve yürürlük takvimi Tiger Research'ün yorumudur, taslağın kesinleşmiş hükmü değil; taslak Ulusal Meclis'te değişebilir. Seismic'in bu süreçle ilişkisi yok.",
+      "url": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance",
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/11/01M88MV8SJQRM9ZKY589WVJW4G/digital-bank-south-korea-1.jpg",
+      "topic": "kore-temel-yasa"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "BusinessDay",
+      "kind": "Bankalar",
+      "title": "BusinessDay: Nigeria'da bankalar sınır ötesi stablecoin ödemelerinin içine daha çok çekiliyor",
+      "summary": "25 Kasım tarihli habere göre Nigeria Merkez Bankası'nın (CBN) 5 Kasım'da yürürlüğe giren kuralları, bankaları dolar stablecoin'leriyle yapılan sınır ötesi ödemelerde hesap, döviz likiditesi, rezerv saklama ve itfa sağlayan taraf konumuna getiriyor; mutabakat teknolojisini ise kripto şirketleri sunuyor. Nigerialılara hizmet veren yabancı para stablecoin'i ihraççıları ülkede şirket kurmak, en az 15 milyar naira ödenmiş sermaye bulundurmak, rezervlerini Nigeria bankalarında tutmak ve lisanslı bir mevduat bankasını yerel itfa temsilcisi olarak atamak zorunda; naira stablecoin'leri için sermaye şartı 10 milyar naira, sahiplerine faiz ödenmesi ve algoritmik stablecoin'ler yasak. Haber, IMF'nin Sahra altı Afrika'ya giren stablecoin akışının yaklaşık yüzde 60'ının Nigeria'ya gittiği yönündeki tahminini ve Access, Sterling, Providus ile First Bank'ın yer aldığı konsorsiyumun cNGN stablecoin'inin SEC'in kuluçka programında olduğunu aktarıyor. IMF, dolar stablecoin'lerinin naira talebini zayıflatabileceği uyarısını yapıyor.",
+      "relevance": "23 Kasım'daki CBN kuralları haberinin devamı: stablecoin ödemelerinde bankaların hesap, rezerv ve itfa tarafını üstlenmesi, stablecoin üzerine kurulu ödeme ve neobank ürünlerinin bu pazarda bankalarla birlikte çalışması gerektiğini gösteriyor; Seismic bu ürünlere uyumu gömülü sunan altyapı sağlıyor. Dikkat: haberde yeni kurallar kapsamında lisans almış bir banka ya da ihraççı bildirilmiyor; anılan ortaklıkların mali koşulları açıklanmadı. Seismic kendi stablecoin'ini çıkarmıyor ve bu düzenlemeyle ilişkisi yok.",
+      "url": "https://businessday.ng/technology/article/nigerias-banks-drawn-deeper-into-stablecoin-rails-as-cross-border-payments-shift",
+      "image": "https://cdn.businessday.ng/wp-content/uploads/2025/02/cNGN-1.png",
+      "topic": "nigeria-cbn-kurallari"
+    },
     {
       "date": "2026-11-25",
       "source": "COINTURK NEWS (DefiLlama verisi)",
@@ -518,7 +540,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.253"
+        "followers": "9.254"
       },
       {
         "handle": "xealistt",
@@ -649,7 +671,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T06:36:00Z",
+    "checkedAt": "2026-11-25T08:38:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
