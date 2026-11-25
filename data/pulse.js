@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T12:37:04Z",
+  "updatedAt": "2026-11-25T14:37:39Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,35 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "crypto.news (EBA duyurusundan)",
+      "kind": "Düzenleme",
+      "title": "Avrupa Bankacılık Otoritesi: stablecoin'ler DeFi'nin merkezinde; erişim sağlayan şirketler için ek kurallar değerlendirilmeli",
+      "summary": "crypto.news'in 25 Kasım tarihli haberine göre Avrupa Bankacılık Otoritesi (EBA), aynı gün duyurduğu araştırmasında elektronik para token'ları dahil stablecoin'lerin merkeziyetsiz finansta borç verme, borç alma ve alım-satım için yaygın biçimde kullanıldığını belirtti. Kurum, borç verme protokollerine erişimi kolaylaştıran kripto hizmet sağlayıcılarına ek yükümlülük getirilmesi gerekip gerekmediğini incelemesi için Avrupa Komisyonu'na yaptığı çağrıyı yineledi. Habere göre EBA, kaldıraç ve kredi temerrütlerinin tüketicilerin yatırımını silebileceği uyarısını yapıyor ve MiCA'daki stablecoin faiz yasağının dolanılması olasılığına işaret ediyor. Avrupalı tüketicilerin DeFi'ye katılımı sınırlı; EBA'nın aktardığı veriye göre Avrupa merkezli yatırımcıların yüzde 42'si 2028'e kadar DeFi'ye katılmayı bekliyor.",
+      "relevance": "Stablecoin'lerin getiri ve borç verme ürünlerine nasıl bağlandığına dair düzenleyici görüşü, stablecoin üzerine finansal ürün kuran şirketlerin uyum çerçevesini etkileyebilir; Seismic de fintech ve neobank'lara stablecoin tabanlı altyapı sunuyor. Dikkat: bu bir araştırma ve Avrupa Komisyonu'na yönelik bir değerlendirme çağrısıdır, yürürlüğe girmiş bir kural değil. Haberde Seismic geçmiyor; Seismic'in bu çalışmayla ilişkisi yok.",
+      "url": "https://crypto.news/eba-stablecoin-defi-risks-mica-regulatory-oversight/",
+      "image": "https://media.crypto.news/2025/09/crypto-news-If-you-touch-money-youll-eventually-touch-stablecoins-option02.webp"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "FinanceX Magazine",
+      "kind": "Ödemeler",
+      "title": "Deel, serbest çalışanların stablecoin bakiyesini harcayabildiği Visa kartını 26 pazarda çıkardı",
+      "summary": "FinanceX Magazine'in 25 Kasım tarihli haberine göre Deel, 24 Kasım'da Deel Card'ı duyurdu. Kart, Deel'in dolar bazlı stablecoin'i DLUSD'de tutulan bakiyeden harcama yapılmasını sağlıyor ve Latin Amerika, Karayipler ile Afrika'daki 26 pazarda Visa'nın geçtiği yerlerde kullanılabiliyor. Habere göre kart Stripe Issuing ile çalışıyor, DLUSD'yi Bridge ihraç ediyor, gömülü cüzdanı Privy işletiyor; kartın kendisi Lead Bank'in çıkardığı ön ödemeli bir Visa. Deel, Haziran 2026'da serbest çalışanların kazancını DLUSD olarak tutmasına izin vermişti; haber bu cüzdanlarda o tarihten beri 45 milyon dolardan fazla tutulduğunu aktarıyor.",
+      "relevance": "Sınır ötesi çalışanların kazancını stablecoin olarak tutup kartla harcaması, Seismic müşterilerinin de çalıştığı bir kullanım alanı; Seismic, Avvio'nun global çalışanlara yönelik hesaplarının altyapısını sağladığını duyurmuştu. Dikkat: rakamlar haberde aktarılan şirket verileridir. Deel Card, Stripe, Bridge ve Privy altyapısıyla çalışıyor; Seismic'in Deel ile ilişkisi yok.",
+      "url": "https://www.financexmagazine.com/post/stablecoin-payroll-gets-its-spend-layer-as-deel-launches-a-card",
+      "image": "https://static.wixstatic.com/media/6fe4c8_952878cfcf1942ec859438b0a19010a3~mv2.png/v1/fill/w_900,h_675,al_c,q_90/6fe4c8_952878cfcf1942ec859438b0a19010a3~mv2.png"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "TechFlow (KOSH duyurusundan)",
+      "kind": "Pazar",
+      "title": "Stablecoin finans platformu KOSH kapanıyor: kart ve sanal hesap hizmetleri 30 Kasım'da sona erecek",
+      "summary": "TechFlow'un 25 Kasım tarihli haberine göre stablecoin finans hizmetleri platformu KOSH, X üzerinden yaptığı duyuruda süregelen piyasa baskısı, sürdürülebilir işletmeye ulaşılamaması ve kalan fonların yetersizliği nedeniyle tüm hizmetlerini aşamalı olarak sonlandıracağını açıkladı. KOSH Card, sanal banka hesapları ile itibari paraya çevirme ve çekim hizmetleri 30 Kasım 2026'da kapanacak. Platform 18 Kasım'da müşterilerine çekim talimatlarını gönderdi; çekim başvuruları 15 Aralık'a kadar açık. KOSH, kurumsal müşterilerin başka sağlayıcılara geçişine yardımcı olacak çözümler aradığını belirtti.",
+      "relevance": "Kart ve sanal hesap sunan bir stablecoin platformunun kapanması, Seismic'in müşterilerinin de çalıştığı stablecoin tabanlı neobank alanında işletme sürdürülebilirliğinin ne kadar belirleyici olduğunu gösteren bir örnek. Dikkat: bilgiler şirketin kendi duyurusunun aktarımıdır; kapanış nedenleri bağımsız olarak doğrulanmadı. KOSH bir Seismic müşterisi değil; Seismic'in KOSH ile ilişkisi yok.",
+      "url": "https://www.techflowpost.com/en-US/newsletter/146648"
+    },
     {
       "date": "2026-11-25",
       "source": "Crypto Briefing (Glassnode ve NOWPayments raporundan)",
@@ -569,7 +598,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.252"
+        "followers": "9.253"
       },
       {
         "handle": "xealistt",
@@ -700,7 +729,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T12:37:04Z",
+    "checkedAt": "2026-11-25T14:37:39Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
