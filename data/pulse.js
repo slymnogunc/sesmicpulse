@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T14:37:39Z",
+  "updatedAt": "2026-11-25T16:36:51Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -19,7 +19,7 @@ window.SEISMIC_PULSE = {
       "url": "https://fortune.com/2025/11/12/crypto-startup-seismic-raises-10-million-to-help-fintechs-protect-customer-data/"
     },
     {
-      "value": "37,7 B",
+      "value": "37,6 B",
       "label": "X takipçisi, @SeismicSys",
       "url": "https://x.com/SeismicSys"
     },
@@ -90,6 +90,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "crypto.news (Hinkal duyurusundan)",
+      "kind": "Gizlilik",
+      "title": "Arbitrum'da Hinkal ile stablecoin'ler doğrudan gizli bakiyeye yatırılabiliyor",
+      "summary": "crypto.news'in 25 Kasım tarihli haberine göre gizlilik protokolü Hinkal, aynı gün yaptığı duyuruyla Arbitrum'da stablecoin'lerin doğrudan gizli bakiyeye yatırılmasını açtı: kullanıcı, itibari paradan kriptoya geçiş hizmetlerinde alıcı adresi olarak Hinkal yatırma adresini girip banka kartıyla USDC, USDT ya da USDG alabiliyor ve tutar önce açık bir cüzdana uğramadan gizli bakiyesine geçiyor. Habere göre Hinkal işlem ayrıntılarını sıfır bilgi ispatlarıyla gizliyor, varlıkların kontrolü hesap sahibinde kalıyor; gelen yatırımlar Chainalysis ile taranıyor ve sonradan işaretlenen bir adresin fonları yalnızca yatıran adrese açık biçimde çekilebiliyor. Hesap sahipleri düzenleyicilere, denetçilere ya da karşı taraflara salt okunur görüntüleme anahtarıyla kayıt erişimi verebiliyor. Hinkal kimlik temelli KYC yapmıyor; bu yükümlülük altyapıyı kullanan işletmelerde ve ödeme sağlayıcılarında kalıyor.",
+      "relevance": "Stablecoin ödemelerinde gizliliği tarama ve yetkili erişimle birlikte sunma yaklaşımı, Seismic'in çalıştığı alanla aynı soruya dokunuyor: işlem ayrıntıları herkese açık olmadan uyum nasıl sağlanır? Yöntem farklı: Hinkal sıfır bilgi ispatlarıyla çalışan bir protokol, Seismic ise TEE tabanlı kendi zincirini kuruyor. Haberde Seismic geçmiyor; Seismic'in Hinkal ya da Arbitrum ile açıkladığı bir ilişki yok.",
+      "url": "https://crypto.news/arbitrum-enables-direct-private-stablecoin-deposits-through-hinkal/",
+      "image": "https://media.crypto.news/2025/08/crypto-news-wallet-planet.webp"
+    },
     {
       "date": "2026-11-25",
       "source": "crypto.news (EBA duyurusundan)",
@@ -508,7 +518,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 888,
+        "views": 896,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -592,13 +602,13 @@ window.SEISMIC_PULSE = {
         "handle": "SeismicSys",
         "name": "Seismic",
         "role": "Resmi hesap",
-        "followers": "37,7 B"
+        "followers": "37,6 B"
       },
       {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.253"
+        "followers": "9.257"
       },
       {
         "handle": "xealistt",
@@ -729,7 +739,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T14:37:39Z",
+    "checkedAt": "2026-11-25T16:36:51Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
