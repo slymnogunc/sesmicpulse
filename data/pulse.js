@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T08:38:00Z",
+  "updatedAt": "2026-11-25T10:38:55Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,25 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "The Block",
+      "kind": "Bankalar",
+      "title": "Japon SBI ve SMFG, Solana Foundation ile stablecoin ödemeleri ve token'laştırma için ortak girişim kurdu",
+      "summary": "25 Kasım tarihli habere göre SBI Holdings, Sumitomo Mitsui Financial Group (SMFG) ve Solana Foundation, SBI Solana Global adlı ortak girişimi kurmak için anlaşmaları tamamladı; haber bunu SBI R3 Japan'in yeni yapıya geçişi olarak tanımlıyor. Şirketin odak alanları stablecoin tabanlı ödemeler, finansal varlıkların ve gerçek dünya varlıklarının token'laştırılması ve zincir üstü varlık yönetimi. Stablecoin tarafında yurt içi ve sınır ötesi ödeme ile havale altyapısı planlanıyor; tahvil, yatırım fonu ve kredi alacaklarının zincire taşınması da hedefler arasında. Solana Foundation'a göre SBI ve SMFG'nin toplam varlığı 2,3 trilyon doları, müşteri sayısı 80 milyonu aşıyor. Önce Japonya'da kullanım alanları oluşturulacak, ardından Asya'ya açılınacak. Sermaye, ortaklık payları, mali koşullar, ürünlerin yayın tarihleri ve hangi stablecoin'in kullanılacağı açıklanmadı.",
+      "relevance": "Büyük bankacılık gruplarının stablecoin ödemelerini ve havaleyi ayrı bir şirketle zincir üstüne taşıması, Seismic'in çalıştığı stablecoin ödeme altyapısı alanındaki bir gelişme; Seismic de fintech ve neobank'lara stablecoin tabanlı bankacılık altyapısı sunuyor. Dikkat: varlık ve müşteri rakamları Solana Foundation'ın beyanıdır; duyuru şirketin kuruluşunu anlatıyor, yayına girmiş belirli bir ödeme ürününü değil. Girişim Solana üzerinde çalışacak; Seismic'in SBI, SMFG ya da Solana Foundation ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.theblock.co/news/business/2026-11-25-japans-sbi-smfg-tap-solana-stablecoin-tokenization-joint-venture-446131",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/gettyimages-2269158222-170667a-e1795600393424.jpg"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "crypto.news (HKMA duyurusundan)",
+      "kind": "Bankalar",
+      "title": "Hong Kong Para Otoritesi, token'laştırılmış tahvil mutabakatı için CMU Dijital Varlık Platformu'nu açtı",
+      "summary": "25 Kasım tarihli habere göre Hong Kong Para Otoritesi (HKMA), Central Moneymarkets Unit (CMU) bünyesindeki Dijital Varlık Platformu'nu devreye aldı. Dağıtık defter teknolojisi kullanan platform, sabit getirili menkul kıymetlerde ihraç, ikincil piyasa mutabakatı, faiz ödemesi ve vade sonu anapara ödemesini dijitalleştiriyor; geleneksel tahviller de aynı altyapıda token'laştırılabiliyor. Mutabakat, teslim ile ödemenin aynı anda gerçekleştiği yöntemle yapılıyor; sistem RTGS sistemlerine ve merkez bankası dijital paralarına bağlanıyor, nakit token'ları 24 saat çok para birimli mutabakata izin veriyor. Yol haritasında yatırım fonları ve diğer token'laştırılmış varlıklar ile token'laştırılmış banka mevduatı ve düzenlenen stablecoin'lerle bağlantının araştırılması yer alıyor. Katılımcılar, ücretler ve stablecoin bağlantısı için takvim açıklanmadı.",
+      "relevance": "Bir merkez bankası kurumunun mutabakat altyapısını dağıtık deftere taşıması ve düzenlenen stablecoin'lerle bağlantıyı yol haritasına alması, Seismic'in çalıştığı zincir üstü ödeme altyapısı alanının genel yönünü gösteriyor. Dikkat: yayına giren kısım tahvil mutabakat platformudur; stablecoin ve token'laştırılmış mevduat bağlantıları araştırma aşamasında, yürürlükte değil. Seismic'in HKMA ya da bu platformla ilişkisi yok.",
+      "url": "https://crypto.news/hong-kong-cmu-digital-asset-platform-tokenized-bonds"
+    },
     {
       "date": "2026-11-25",
       "source": "Cointelegraph",
@@ -468,7 +487,7 @@ window.SEISMIC_PULSE = {
         "channel": "11AM w/ Seed Club",
         "title": "Lyron Co Ting Keh, Founder of Seismic, on 11AM w/ Seed Club",
         "duration": "20:18",
-        "views": 310,
+        "views": 311,
         "summary": "10 milyon dolarlık turun hemen ardından Seed Club'ın günlük yayınında Seismic'in yol haritası."
       },
       {
@@ -504,7 +523,7 @@ window.SEISMIC_PULSE = {
         "channel": "UP TOP TV",
         "title": "EP 061 | LYRON CO TING KEH | SEISMIC",
         "duration": "49:54",
-        "views": 1570,
+        "views": 1571,
         "summary": "Stanford ve yapay zekâdan kriptoya geçiş, Seismic'in kuruluşu ve ekip kurma üzerine uzun sohbet."
       },
       {
@@ -671,7 +690,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T08:38:00Z",
+    "checkedAt": "2026-11-25T10:38:55Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
