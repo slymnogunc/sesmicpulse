@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T18:38:07Z",
+  "updatedAt": "2026-11-25T20:36:35Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,15 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Borderless AI basın bülteni (Business Wire)",
+      "kind": "Ödemeler",
+      "title": "Borderless AI, küresel ekipler için bordro platformuna stablecoin ile ödemeyi ekledi",
+      "summary": "Kanadalı işveren kaydı (EOR) ve küresel bordro platformu Borderless AI, 25 Kasım'da uygun çalışanların ücretini ABD dolarına endeksli stablecoin olarak alabileceğini duyurdu. Şirkete göre çalışanlar platformda dolar karşılığı bakiye tutabilecek, günlük işleyen ödüller kazanabilecek ve Borderless kartıyla harcama yapabilecek; işletmeler bu ödemeleri mevcut bordro akışının içinden yönetecek. Hizmet, şirketin dijital varlıkla bordro ödemesini desteklediği ülkelerde ve yerel düzenlemelere bağlı olarak sunulacak.",
+      "relevance": "Sınır ötesi çalışanlara stablecoin ile ücret ödemesi ve bakiyenin kartla harcanması, Seismic altyapısını kullanan Avvio'nun küresel çalışanlara sunduğu hesaplarla aynı ihtiyaca yöneliyor. Bu bir şirket basın bültenidir; bağımsız olarak doğrulanmış kullanım verisi içermiyor. Seismic'in Borderless AI ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.bnnbloomberg.ca/press-releases/2026/11/25/borderless-ai-introduces-stablecoin-payments-for-global-teams/"
+    },
     {
       "date": "2026-11-25",
       "source": "Crypto Briefing (Tether duyurusundan)",
@@ -537,7 +546,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 899,
+        "views": 905,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -627,19 +636,19 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.256"
+        "followers": "9.247"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.676"
+        "followers": "3.673"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.083"
+        "followers": "4.081"
       },
       {
         "handle": "heathcliff_eth",
@@ -758,7 +767,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T18:38:07Z",
+    "checkedAt": "2026-11-25T20:36:35Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
