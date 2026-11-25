@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T00:37:00Z",
+  "updatedAt": "2026-11-25T02:37:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -509,19 +509,19 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.253"
+        "followers": "9.252"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.677"
+        "followers": "3.678"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.083"
+        "followers": "4.085"
       },
       {
         "handle": "heathcliff_eth",
@@ -640,7 +640,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T00:37:00Z",
+    "checkedAt": "2026-11-25T02:37:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
