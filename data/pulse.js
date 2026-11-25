@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-24T22:37:00Z",
+  "updatedAt": "2026-11-25T00:37:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,15 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-24",
+      "source": "crypto.news (Circle duyurusundan)",
+      "kind": "Ödemeler",
+      "title": "Circle ve Paribu, Türkiye'de USDC erişimi ve zincir üstü finans için mutabakat zaptı imzaladı",
+      "summary": "24 Kasım tarihli habere göre Circle'ın Bermuda'da lisanslı iştiraki Circle International Bermuda Limited ile Türk kripto platformu Paribu, Türkiye'de USDC kullanımını, varlık token'laştırmayı ve kurumsal saklama hizmetlerini birlikte araştırmak üzere bir mutabakat zaptı imzaladı. Kapsam; Circle'ın Layer 1 ağı Arc üzerinde finansal ürünler, gerçek dünya varlıklarının token'laştırılması, kurumsal dijital varlık saklama ve ortak araştırma, eğitim ve geliştirici çalışmalarını içeriyor. Paribu, Arc'ın Türkiye'deki lansman ortağıydı ve Arc üzerinden USDC yatırma ve çekme işlemlerini destekliyor. Haberde takvim, mali koşullar ve Türkiye'ye özgü kullanıcı ya da hacim hedefi yer almıyor.",
+      "relevance": "Bir stablecoin ihraççısının yerel bir platformla dağıtım ve saklama altyapısını birlikte ele alması, stablecoin'in ülke bazında yerel ortaklar üzerinden yayıldığını gösteriyor; Seismic de fintech ve neobank'lara stablecoin tabanlı bankacılık altyapısı sunuyor. Dikkat: bu bir mutabakat zaptıdır ve taraflar fırsatları 'araştıracaklarını' söylüyor; yayına girmiş bir ürün ya da kesinleşmiş bir takvim yok. Seismic'in Circle ya da Paribu ile açıklanmış bir ilişkisi yok.",
+      "url": "https://crypto.news/circle-partners-with-paribu-to-explore-usdc-expansion-in-turkey/"
+    },
     {
       "date": "2026-11-24",
       "source": "PYMNTS (analiz yazısı)",
@@ -410,7 +419,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 864,
+        "views": 874,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -437,7 +446,7 @@ window.SEISMIC_PULSE = {
         "channel": "Block By Block Show",
         "title": "\"The $100 Trillion Opportunity.\" Why Payroll & Rent Are Moving On-Chain",
         "duration": "49:43",
-        "views": 152,
+        "views": 153,
         "summary": "Yatırım turunun hikâyesi, şifreli finansal hizmetler, kullanıcı araştırmasının önemi ve KOBİ kredileri."
       },
       {
@@ -506,7 +515,7 @@ window.SEISMIC_PULSE = {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.680"
+        "followers": "3.677"
       },
       {
         "handle": "NoxxW3",
@@ -518,7 +527,7 @@ window.SEISMIC_PULSE = {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.198"
+        "followers": "3.199"
       }
     ],
     "posts": [
@@ -631,8 +640,8 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-24T22:37:00Z",
-    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–24 Kasım arasında ana dallara yeni commit düşmedi.",
+    "checkedAt": "2026-11-25T00:37:00Z",
+    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
         "name": "seismic-reth",
