@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T02:37:00Z",
+  "updatedAt": "2026-11-25T04:38:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,15 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "COINTURK NEWS (DefiLlama verisi)",
+      "kind": "Pazar",
+      "title": "Toplam stablecoin arzı 24 Kasım'a kadarki bir ayda 17,2 milyar dolar azaldı",
+      "summary": "DefiLlama verisine dayanan 25 Kasım tarihli habere göre toplam stablecoin arzı 24 Kasım'da sona eren bir ayda 17,2 milyar dolar, yani yaklaşık yüzde 5,7 geriledi. Düşüşün 7,74 milyar doları USDT'den, 3,6 milyar doları USDS'ten ve 2,41 milyar doları USDC'den geldi; toplam azalmanın 13,9 milyar doları Ethereum üzerinde gerçekleşti. Haber bunu, Mayıs 2022'deki TerraUSD çöküşü dışında dolar bazında en büyük aylık çıkış olarak niteliyor ve 29 Ekim'deki Binance saldırısını tek neden değil, tetikleyici olarak sunuyor.",
+      "relevance": "18 ve 23 Kasım'daki arz verilerinin devamı niteliğinde bir piyasa görünümü. Seismic kendi stablecoin'ini çıkarmıyor; mevcut stablecoin'ler üzerinde çalışan ödeme altyapısı sunuyor. Dikkat: rakamlar bir aylık dönemi kapsıyor ve 23 Kasım'daki haftalık veriyle doğrudan karşılaştırılamaz; haber DefiLlama ve Glassnode verisinin ikincil bir derlemesidir ve yorum içeriyor. Piyasa verisidir, yön tahmini ya da yatırım yorumu değildir; kaynakta Seismic geçmiyor.",
+      "url": "https://en.coin-turk.com/stablecoin-supply-drops-17-2-billion-largest-decline-since-terra-collapse/"
+    },
     {
       "date": "2026-11-24",
       "source": "crypto.news (Circle duyurusundan)",
@@ -419,7 +428,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 874,
+        "views": 876,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -515,7 +524,7 @@ window.SEISMIC_PULSE = {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.678"
+        "followers": "3.677"
       },
       {
         "handle": "NoxxW3",
@@ -640,7 +649,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T02:37:00Z",
+    "checkedAt": "2026-11-25T04:38:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
