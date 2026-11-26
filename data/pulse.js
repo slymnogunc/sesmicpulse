@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-26T04:36:43Z",
+  "updatedAt": "2026-11-26T06:37:22Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -102,12 +102,30 @@ window.SEISMIC_PULSE = {
   "news": [
     {
       "date": "2026-11-26",
+      "source": "South China Morning Post",
+      "kind": "Bankalar",
+      "title": "HSBC: Hong Kong doları stablecoin'i RedCoin'i ilk ayında 100 binden fazla kişi kullandı",
+      "summary": "HSBC'nin 26 Kasım'da yaptığı açıklamaya göre, bankanın Hong Kong dolarına endeksli stablecoin'i RedCoin'i çıkışından sonraki ilk ayda 100 binden fazla kişi kullandı. Ekim'de çıkan RedCoin, bankanın PayMe ödeme uygulamasının 3,3 milyondan fazla kullanıcısına açık; arkadaşlara gönderilebiliyor ve 100 binden fazla işyerinde ödemede kullanılabiliyor. Banka sırada risk yönetimi, siber güvenlik ve yeni ürünlerin olduğunu, varlık yönetimi ve kurumsal kullanımlara aşamalı geçileceğini söylüyor.",
+      "relevance": "Büyük bir bankanın kendi stablecoin'ini doğrudan bireysel müşterilerin günlük ödemelerine soktuğunu gösteren somut bir kullanım verisi. Seismic de stablecoin'le çalışan finans uygulamalarına altyapı sağlıyor; stablecoin'in gündelik ödemede karşılık bulması bu alanın ortak zemini. Rakam bankanın kendi açıklamasıdır. Seismic'in HSBC ile açıkladığı bir ilişki yok.",
+      "url": "https://www.scmp.com/business/article/3375825/hsbc-sees-more-100000-users-its-stablecoin-first-month-launch"
+    },
+    {
+      "date": "2026-11-26",
       "source": "TechFlow (Digital Asset'ten)",
       "kind": "Düzenleme",
       "title": "Güney Kore taslağı: Tether ve Circle gibi yabancı stablecoin ihraççıları rezervlerini yerel bankalarda tutacak",
       "summary": "TechFlow'un 26 Kasım'da Koreli yayın Digital Asset'e dayandırdığı habere göre Güney Kore Finansal Hizmetler Komisyonu, yabancı stablecoin ihraççılarına yerel rezerv yönetimi şartı getirmeyi planlıyor. Taslağa göre Güney Kore'de yerleşik kişilere ihraç ve itfa hizmeti veren yabancı ihraççılar ülkede şube ya da iş yeri açıp komisyona kaydolacak, rezerv varlıklarını kendi sermayelerinden ayıracak ve banka gibi belirlenmiş kurumlarda saklama ya da emanet yoluyla tutacak. Rezervin büyüklüğü, ihraççının kendi ülkesindeki düzenlemeye ve stablecoin'in Güney Kore'deki tutulma ve dolaşım hacmine göre belirlenecek; ihraççılar ülkede belirli bir işletme sermayesi de bulunduracak. Yerel şubenin iflası ya da tasfiyesi hâlinde ülkedeki varlıklar öncelikle Koreli alacaklılara ödenecek.",
       "relevance": "Yabancı ihraççılara yerel rezerv ve kayıt şartı, stablecoin ile çalışan ödeme şirketlerinin her pazarda ayrı bir uyum katmanıyla karşılaştığını gösteriyor; Seismic de stablecoin tabanlı fintech'lere altyapı sunduğu için bu, alanın düzenleme tablosuna dair bağlam veriyor. Dikkat: bu bir yasa taslağıdır, yürürlüğe girmedi; ayrıntılar değişebilir ve bilgi ikinci elden bir aktarımdır. Seismic'in bu düzenlemeyle ya da adı geçen şirketlerle ilişkisi yok.",
       "url": "https://www.techflowpost.com/en-US/newsletter/147021"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "CoinAlertNews (Transak duyurusundan)",
+      "kind": "Düzenleme",
+      "title": "Transak, Avusturya'dan MiCA lisansı aldı: itibari para–kripto geçiş hizmeti 30 AEA ülkesine açılıyor",
+      "summary": "Transak, Viyana'daki şirketi Transak GmbH'nin Avusturya Finansal Piyasa Otoritesi'nden (FMA) AB'nin MiCA düzenlemesi kapsamında yetki aldığını duyurdu. Lisans, itibari para ile kripto arasındaki geçiş hizmetinin tek entegrasyonla 30 Avrupa Ekonomik Alanı ülkesinde sunulmasına izin veriyor; şirket hizmetin 26 Kasım'da açılacağını söylüyor. Ödeme yöntemleri arasında kart, Apple Pay, Google Pay ve SEPA var.",
+      "relevance": "İtibari para ile stablecoin arasındaki giriş-çıkış, stablecoin'le çalışan her finans uygulamasının ihtiyaç duyduğu katman; Seismic de müşterilerine bu tür ödeme altyapısını sağlıyor. Haber, Avrupa'da bu katmanın tek lisansla sunulabildiğini gösteriyor. Seismic'in Transak ile açıkladığı bir ilişki yok.",
+      "url": "https://coinalertnews.com/news/2026/11/25/transak-mica-licence-europe-ramps"
     },
     {
       "date": "2026-11-25",
@@ -694,7 +712,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.239"
+        "followers": "9.240"
       },
       {
         "handle": "xealistt",
@@ -712,7 +730,7 @@ window.SEISMIC_PULSE = {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.195"
+        "followers": "3.194"
       }
     ],
     "posts": [
@@ -825,7 +843,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-26T04:36:43Z",
+    "checkedAt": "2026-11-26T06:37:22Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–26 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
