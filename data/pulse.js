@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-26T02:38:40Z",
+  "updatedAt": "2026-11-26T04:36:43Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -100,6 +100,15 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-26",
+      "source": "TechFlow (Digital Asset'ten)",
+      "kind": "Düzenleme",
+      "title": "Güney Kore taslağı: Tether ve Circle gibi yabancı stablecoin ihraççıları rezervlerini yerel bankalarda tutacak",
+      "summary": "TechFlow'un 26 Kasım'da Koreli yayın Digital Asset'e dayandırdığı habere göre Güney Kore Finansal Hizmetler Komisyonu, yabancı stablecoin ihraççılarına yerel rezerv yönetimi şartı getirmeyi planlıyor. Taslağa göre Güney Kore'de yerleşik kişilere ihraç ve itfa hizmeti veren yabancı ihraççılar ülkede şube ya da iş yeri açıp komisyona kaydolacak, rezerv varlıklarını kendi sermayelerinden ayıracak ve banka gibi belirlenmiş kurumlarda saklama ya da emanet yoluyla tutacak. Rezervin büyüklüğü, ihraççının kendi ülkesindeki düzenlemeye ve stablecoin'in Güney Kore'deki tutulma ve dolaşım hacmine göre belirlenecek; ihraççılar ülkede belirli bir işletme sermayesi de bulunduracak. Yerel şubenin iflası ya da tasfiyesi hâlinde ülkedeki varlıklar öncelikle Koreli alacaklılara ödenecek.",
+      "relevance": "Yabancı ihraççılara yerel rezerv ve kayıt şartı, stablecoin ile çalışan ödeme şirketlerinin her pazarda ayrı bir uyum katmanıyla karşılaştığını gösteriyor; Seismic de stablecoin tabanlı fintech'lere altyapı sunduğu için bu, alanın düzenleme tablosuna dair bağlam veriyor. Dikkat: bu bir yasa taslağıdır, yürürlüğe girmedi; ayrıntılar değişebilir ve bilgi ikinci elden bir aktarımdır. Seismic'in bu düzenlemeyle ya da adı geçen şirketlerle ilişkisi yok.",
+      "url": "https://www.techflowpost.com/en-US/newsletter/147021"
+    },
     {
       "date": "2026-11-25",
       "source": "Crypto Briefing (Ripple duyurusundan)",
@@ -595,7 +604,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 906,
+        "views": 907,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -691,7 +700,7 @@ window.SEISMIC_PULSE = {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.670"
+        "followers": "3.669"
       },
       {
         "handle": "NoxxW3",
@@ -816,7 +825,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-26T02:38:40Z",
+    "checkedAt": "2026-11-26T04:36:43Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–26 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
