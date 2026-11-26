@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-25T22:39:33Z",
+  "updatedAt": "2026-11-26T00:37:05Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -100,6 +100,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Crypto Briefing",
+      "kind": "Ödemeler",
+      "title": "Visa'nın stablecoin ile mutabakat hacmi yıllık 25 milyar dolar temposunu aştı",
+      "summary": "Crypto Briefing'in 25 Kasım tarihli haberine göre Visa'nın stablecoin ile mutabakat işi yıllıklandırılmış olarak 25 milyar doların üzerinde bir tempoda ilerliyor; bir yıl önce bu rakam yaklaşık 2,5 milyar dolardı. Rakamı CEO Ryan McInerney, 27 Ekim 2026'daki mali dördüncü çeyrek bilanço görüşmesinde açıkladı. Habere göre Visa on blokzincir ağında beş stablecoin ile mutabakatı destekliyor, Western Union'ın USDPT'si altıncı seçenek olarak ekleniyor. Şirket dünya genelinde 225'ten fazla stablecoin bağlantılı kart programı sayıyor; bu programlar 50'den fazla ülkede yaklaşık beş milyon kartı kapsıyor ve hacim yüzde 150'den fazla arttı. Haber, bu tempoyu Visa Direct'ten geçen 1,5 trilyon dolarlık ödeme hacminin yaklaşık yüzde 1,7'si olarak konumluyor.",
+      "relevance": "Stablecoin bağlantılı kart programlarının ve hafta sonu da çalışan stablecoin mutabakatının büyümesi, Seismic'in neobank'lara sunduğu kart ve ödeme altyapısının bulunduğu alanı ilgilendiriyor; haber bu hizmetin kullanıcıları arasında neobank'ları da sayıyor. Dikkat: rakam gerçekleşmiş yıllık hacim değil, birkaç aylık faaliyetten yıllığa çevrilmiş bir tempodur ve 27 Ekim'deki açıklamaya dayanıyor; haber yeni bir duyuru değil, o açıklamanın derlemesidir. Seismic'in Visa ile açıklanmış bir ilişkisi yok.",
+      "url": "https://cryptobriefing.com/visa-stablecoin-settlement-run-rate-25-billion/",
+      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25092554/library-visa-s-stablecoin-settlement-run-rate-tops-25-billion-a--800x450.jpg"
+    },
     {
       "date": "2026-11-25",
       "source": "The Block",
@@ -667,7 +677,7 @@ window.SEISMIC_PULSE = {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.081"
+        "followers": "4.078"
       },
       {
         "handle": "heathcliff_eth",
@@ -786,8 +796,8 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-25T22:39:33Z",
-    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–25 Kasım arasında ana dallara yeni commit düşmedi.",
+    "checkedAt": "2026-11-26T00:37:05Z",
+    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–26 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
         "name": "seismic-reth",
