@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-26T00:37:05Z",
+  "updatedAt": "2026-11-26T02:38:40Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -100,6 +100,16 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-25",
+      "source": "Crypto Briefing (Ripple duyurusundan)",
+      "kind": "Bankalar",
+      "title": "Yapı Kredi, kripto platformu Yapı Kredi Kripto'nun saklama altyapısı için Ripple'ı seçti",
+      "summary": "Crypto Briefing'in 25 Kasım tarihli haberine göre Ripple, Türkiye'nin en büyük özel bankalarından Yapı Kredi ile bir iş birliği duyurdu: Ripple Custody, bankanın kripto varlık hizmeti Yapı Kredi Kripto'nun temel saklama teknolojisi olacak ve bankanın kendi sistemlerinde çalıştırılacak. Habere göre bu kurulum bankaya güvenlik üzerinde doğrudan kontrol veriyor ve Sermaye Piyasası Kurulu'nun (SPK) kurallarına uyumu sağlıyor; Türkiye'deki çerçevede alım-satım platformları müşteri kripto varlıklarının en az yüzde 95'ini yetkili bir saklama kuruluşunda tutmak zorunda. Yapı Kredi, kripto varlık saklama hizmeti için SPK onayını 2026'da aldı. Haberde anlaşmanın mali koşulları yer almıyor.",
+      "relevance": "Büyük bir bankanın düzenleyici çerçeve içinde dijital varlık hizmeti kurarken altyapıyı uzman bir sağlayıcıdan alması, Seismic'in fintech ve neobank'lara sunduğu hazır bankacılık altyapısı modeliyle aynı yönde bir örnek. Dikkat: anlaşma saklama (custody) teknolojisiyle ilgili; stablecoin ödemelerini ya da gizliliği konu almıyor. Ripple'ın Türkiye'deki konumuna dair ifadeler şirketin kendi beyanıdır. Seismic'in Yapı Kredi ya da Ripple ile açıklanmış bir ilişkisi yok.",
+      "url": "https://cryptobriefing.com/ripple-custody-partnership-turkey/",
+      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25082511/library-4250-496e85b7-1dfd-43fb-8a7c-fc6149d366d4-800x450.jpg"
+    },
     {
       "date": "2026-11-25",
       "source": "Crypto Briefing",
@@ -236,6 +246,16 @@ window.SEISMIC_PULSE = {
       "summary": "DefiLlama verisine dayanan 25 Kasım tarihli habere göre toplam stablecoin arzı 24 Kasım'da sona eren bir ayda 17,2 milyar dolar, yani yaklaşık yüzde 5,7 geriledi. Düşüşün 7,74 milyar doları USDT'den, 3,6 milyar doları USDS'ten ve 2,41 milyar doları USDC'den geldi; toplam azalmanın 13,9 milyar doları Ethereum üzerinde gerçekleşti. Haber bunu, Mayıs 2022'deki TerraUSD çöküşü dışında dolar bazında en büyük aylık çıkış olarak niteliyor ve 29 Ekim'deki Binance saldırısını tek neden değil, tetikleyici olarak sunuyor.",
       "relevance": "18 ve 23 Kasım'daki arz verilerinin devamı niteliğinde bir piyasa görünümü. Seismic kendi stablecoin'ini çıkarmıyor; mevcut stablecoin'ler üzerinde çalışan ödeme altyapısı sunuyor. Dikkat: rakamlar bir aylık dönemi kapsıyor ve 23 Kasım'daki haftalık veriyle doğrudan karşılaştırılamaz; haber DefiLlama ve Glassnode verisinin ikincil bir derlemesidir ve yorum içeriyor. Piyasa verisidir, yön tahmini ya da yatırım yorumu değildir; kaynakta Seismic geçmiyor.",
       "url": "https://en.coin-turk.com/stablecoin-supply-drops-17-2-billion-largest-decline-since-terra-collapse/"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "The Block",
+      "kind": "Kurumsal",
+      "title": "BlackRock, Hong Kong'da token'laştırılmış para piyasası fonunu açtı; profesyonel yatırımcılar HKD stablecoin'i ile alım yapabiliyor",
+      "summary": "The Block'un 24 Kasım tarihli haberine göre BlackRock, Hong Kong'daki ilk token'laştırılmış para piyasası fonu BlackRock HKD Digital Liquidity Fund'ı bireysel ve kurumsal yatırımcılara açtı. Şirketin açıklamasına göre fonun 20 Kasım itibarıyla yönetilen varlığı 100 milyon dolar; fon devlet borçlanma araçları ile gecelik ve vadeli mevduat gibi kısa vadeli araçlara yatırım yapıyor. Fon hem geleneksel hem token'laştırılmış paylar sunuyor; profesyonel yatırımcılar, Anchorpoint Financial'ın ihraç ettiği Hong Kong doları destekli stablecoin HKDAP dahil dijital nakitle alım ve itfa yapabiliyor. Açıklamaya göre bu, Hong Kong'da kurulu olup bireysel ve kurumsal yatırımcılara sabit net varlık değeri sunan ilk para piyasası fonu.",
+      "relevance": "Düzenlenmiş bir stablecoin'in büyük bir varlık yöneticisinin fonuna giriş ve çıkış aracı olarak kullanılması, stablecoin'lerin ödeme dışında nakit yönetimi ürünlerine de bağlandığını gösteriyor; Seismic'in neobank'lara sunduğu altyapıda da getiri bileşeni yer alıyor. Dikkat: stablecoin ile alım yalnızca profesyonel yatırımcılara açık; varlık büyüklüğü şirketin beyanıdır ve fon, değerleme farkı 50 baz puana ulaşırsa piyasa fiyatlamasına geçebiliyor. Bu bir yatırım önerisi değildir. Seismic'in BlackRock ya da Anchorpoint Financial ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524",
+      "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/image-3.png"
     },
     {
       "date": "2026-11-24",
@@ -796,7 +816,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-26T00:37:05Z",
+    "checkedAt": "2026-11-26T02:38:40Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–26 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
