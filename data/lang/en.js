@@ -350,7 +350,7 @@ window.SEISMIC_LANG["en"] = {
   "Resmi hesap": "Official account",
   "Kurucu": "Founder",
   "Topluluk yöneticisi": "Community manager",
-  "9.240": "9,240",
+  "9.237": "9,237",
   "3.664": "3,664",
   "4.073": "4,073",
   "3.190": "3,190",
