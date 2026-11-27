@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-26T06:37:22Z",
+  "updatedAt": "2026-11-27T22:30:49Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -35,71 +35,99 @@ window.SEISMIC_PULSE = {
     }
   ],
   "mindshare": {
-    "date": "2026-11-26",
-    "note": "Son 48 saatin Seismic ile ilişkili gelişmelerinden altı konu. Doğrudan Seismic kaynaklı yeni bir duyuru yok; konular 25 Kasım haberlerinden seçildi. Her konuda haberin ne olduğu ve Seismic'e nasıl bağlandığı yazıyor; içeriği kendi sesinle sen yazarsın.",
+    "date": "2026-11-28",
+    "note": "Son 48 saatin Seismic ile ilişkili gelişmelerinden beş konu. Doğrudan Seismic kaynaklı yeni bir duyuru yok; konular 26–27 Kasım haberlerinden seçildi. Her konuda haberin ne olduğu ve Seismic'e nasıl bağlandığı yazıyor; içeriği kendi sesinle sen yazarsın.",
     "topics": [
       {
-        "id": "sbi-smfg-solana",
-        "category": "Bankalar",
-        "title": "Japon SBI ve SMFG, Solana Foundation ile stablecoin ödemeleri ve token'laştırma için ortak girişim kurdu",
-        "angle": "SBI Holdings, Sumitomo Mitsui Financial Group ve Solana Foundation, 25 Kasım tarihli habere göre SBI Solana Global adlı ortak girişim için anlaşmaları tamamladı; şirket stablecoin tabanlı yurt içi ve sınır ötesi ödemeler, token'laştırma ve zincir üstü varlık yönetimi üzerinde çalışacak. Seismic bağlantısı: büyük bankacılık gruplarının stablecoin ödemelerini ayrı bir şirketle zincir üstüne taşıması, Seismic'in fintech ve neobank'lara sunduğu stablecoin tabanlı bankacılık altyapısıyla aynı alandaki bir gelişme. Dikkat: duyuru şirketin kuruluşunu anlatıyor, yayına girmiş bir ödeme ürününü değil; sermaye, yayın tarihleri ve kullanılacak stablecoin açıklanmadı, varlık ve müşteri rakamları Solana Foundation'ın beyanı. Girişim Solana üzerinde çalışacak; Seismic'in SBI, SMFG ya da Solana Foundation ile açıklanmış bir ilişkisi yok.",
-        "source": "The Block",
-        "date": "2026-11-25",
-        "url": "https://www.theblock.co/news/business/2026-11-25-japans-sbi-smfg-tap-solana-stablecoin-tokenization-joint-venture-446131",
-        "image": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/gettyimages-2269158222-170667a-e1795600393424.jpg"
-      },
-      {
-        "id": "hinkal-arbitrum",
+        "id": "midnight-wea-netstars",
         "category": "Gizlilik",
-        "title": "Arbitrum'da Hinkal ile stablecoin'ler doğrudan gizli bakiyeye yatırılabiliyor",
-        "angle": "Gizlilik protokolü Hinkal, 25 Kasım'da Arbitrum'da stablecoin'lerin doğrudan gizli bakiyeye yatırılmasını açtı: banka kartıyla alınan USDC, USDT ya da USDG önce açık bir cüzdana uğramadan gizli bakiyeye geçiyor; gelen yatırımlar Chainalysis ile taranıyor ve hesap sahibi düzenleyicilere ya da denetçilere salt okunur görüntüleme anahtarı verebiliyor. Seismic bağlantısı: işlem ayrıntıları herkese açık olmadan uyumun nasıl sağlanacağı, Seismic'in de çalıştığı soru. Dikkat: yöntem farklı; Hinkal sıfır bilgi ispatlarıyla çalışan bir protokol, Seismic ise TEE tabanlı kendi zincirini kuruyor. Hinkal kimlik temelli KYC yapmıyor, bu yükümlülük altyapıyı kullanan işletmelerde kalıyor. Seismic'in Hinkal ya da Arbitrum ile açıkladığı bir ilişki yok.",
-        "source": "crypto.news (Hinkal duyurusundan)",
-        "date": "2026-11-25",
-        "url": "https://crypto.news/arbitrum-enables-direct-private-stablecoin-deposits-through-hinkal/",
-        "image": "https://media.crypto.news/2025/08/crypto-news-wallet-planet.webp"
+        "title": "Midnight Foundation, WEA Japan ve Netstars, işyerleri için gizli stablecoin ödemelerini incelemek üzere anlaştı",
+        "angle": "Midnight Foundation, WEA Japan ve Netstars 27 Kasım'da bir mutabakat zaptı imzaladı: işyeri bakiyelerinin ve ödeme kayıtlarının herkese açık olmadan tutulması, otomatik mutabakat, anahtar güvenliği ve gizlilik özelliklerinin birden çok ağda kullanılabilmesi incelenecek. Seismic bağlantısı: işletmelerin stablecoin ile ödeme alırken ticari bilgilerini gizli tutabilmesi, Seismic'in de üzerinde çalıştığı temel sorun. Dikkat: bu bir inceleme anlaşmasıdır, ticari başlangıç tarihi yok. Midnight sıfır bilgi ispatlarıyla çalışıyor, Seismic ise TEE tabanlı kendi zincirini kuruyor; Seismic'in bu girişimle ilişkisi yok.",
+        "source": "crypto.news",
+        "date": "2026-11-27",
+        "url": "https://crypto.news/midnight-foundation-wea-japan-netstars-payments/",
+        "image": "https://media.crypto.news/2025/07/crypto-news-Payments-are-broken-and-stablecoins-are-rapidly-fixing-them-option04.webp"
       },
       {
-        "id": "eba-defi-stablecoin",
-        "category": "Düzenleme",
-        "title": "Avrupa Bankacılık Otoritesi: stablecoin'ler DeFi'nin merkezinde; erişim sağlayan şirketler için ek kurallar değerlendirilmeli",
-        "angle": "Avrupa Bankacılık Otoritesi (EBA), 25 Kasım'da duyurduğu araştırmada stablecoin'lerin merkeziyetsiz finansta borç verme, borç alma ve alım-satım için yaygın biçimde kullanıldığını belirtti ve borç verme protokollerine erişim sağlayan kripto hizmet sağlayıcılarına ek yükümlülük gerekip gerekmediğini incelemesi için Avrupa Komisyonu'na çağrısını yineledi; MiCA'daki stablecoin faiz yasağının dolanılması olasılığına da işaret etti. Seismic bağlantısı: stablecoin'lerin getiri ürünlerine nasıl bağlandığına dair düzenleyici görüşü, stablecoin üzerine finansal ürün kuran fintech ve neobank'ların uyum çerçevesini etkileyebilir. Dikkat: bu bir araştırma ve değerlendirme çağrısıdır, yürürlüğe girmiş bir kural değil. Seismic'in bu çalışmayla ilişkisi yok.",
-        "source": "crypto.news (EBA duyurusundan)",
-        "date": "2026-11-25",
-        "url": "https://crypto.news/eba-stablecoin-defi-risks-mica-regulatory-oversight/",
-        "image": "https://media.crypto.news/2025/09/crypto-news-If-you-touch-money-youll-eventually-touch-stablecoins-option02.webp"
-      },
-      {
-        "id": "deel-card",
+        "id": "visa-nbx-flex",
         "category": "Ödemeler",
-        "title": "Deel, serbest çalışanların stablecoin bakiyesini harcayabildiği Visa kartını 26 pazarda çıkardı",
-        "angle": "Deel, 24 Kasım'da Deel Card'ı duyurdu: serbest çalışanlar dolar bazlı stablecoin DLUSD'de tuttukları bakiyeyi Latin Amerika, Karayipler ve Afrika'daki 26 pazarda Visa'nın geçtiği yerlerde harcayabiliyor. Habere göre kart Stripe Issuing ile çalışıyor, DLUSD'yi Bridge ihraç ediyor, cüzdanı Privy işletiyor ve kartı Lead Bank çıkarıyor. Seismic bağlantısı: sınır ötesi çalışanların kazancını stablecoin olarak tutup kartla harcaması, Seismic altyapısını kullanan Avvio'nun global çalışanlara sunduğu hesaplarla aynı ihtiyaca yöneliyor. Dikkat: cüzdanlarda tutulan 45 milyon dolar gibi rakamlar haberde aktarılan şirket verileridir. Seismic'in Deel ile ilişkisi yok.",
-        "source": "FinanceX Magazine",
-        "date": "2026-11-25",
-        "url": "https://www.financexmagazine.com/post/stablecoin-payroll-gets-its-spend-layer-as-deel-launches-a-card",
-        "image": "https://static.wixstatic.com/media/6fe4c8_952878cfcf1942ec859438b0a19010a3~mv2.png/v1/fill/w_900,h_675,al_c,q_90/6fe4c8_952878cfcf1942ec859438b0a19010a3~mv2.png"
+        "title": "Visa ve NBX, geleneksel para ve stablecoin bakiyesini tek kartta birleştiren Visa Flex kartını 2027 için planlıyor",
+        "angle": "Visa, NBX, Tieto Banktech ve IDT Finance 26 Kasım'da, kullanıcının tek kartla geleneksel para ya da desteklenen stablecoin bakiyesinden ödeme yapmasını sağlayacak NBX Visa Flex Card planını duyurdu; kartın 2027'de Norveç, İsveç, Danimarka, Finlandiya ve Almanya'da banka kartı olarak çıkması planlanıyor. Seismic bağlantısı: stablecoin bakiyesini kartla harcanabilir hâle getirmek, Seismic altyapısını kullanan neobank'ların sunduğu kart ve çoklu para birimi hesaplarıyla aynı ihtiyaç. Dikkat: kart henüz çıkmadı, tarih ve ülkeler plandır. Seismic'in Visa ya da NBX ile açıklanmış bir ilişkisi yok.",
+        "source": "Electronic Payments International",
+        "date": "2026-11-27",
+        "url": "https://www.electronicpaymentsinternational.com/news/visa-and-nbx-plan-stablecoin-linked-payment-card/",
+        "image": "https://www.electronicpaymentsinternational.com/wp-content/uploads/sites/4/2026/11/visa-27thNov.jpg"
       },
       {
-        "id": "aave-app",
+        "id": "b3-open-brl",
+        "category": "Bankalar",
+        "title": "Brezilya'da B3 ve altı büyük finans kuruluşu ortak real stablecoin'i Open BRL için bir araya geldi",
+        "angle": "Valor Econômico'nun 27 Kasım tarihli haberine göre Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander ve XP, B3'ün Open BRL girişimine katılıyor; token'ı Banco B3 bire bir real rezerviyle çıkaracak ve 2027'nin ilk çeyreğinde başlaması planlanıyor. Seismic bağlantısı: rakip bankaların ortak bir stablecoin'i kurumlar arası ödeme ve takas varlığı olarak benimsemesi, stablecoin'lerin bankacılık altyapısına yerleştiğini gösteriyor; Seismic de bu alanda fintech ve neobank'lara altyapı sağlıyor. Dikkat: ürün henüz çalışmıyor ve kurumların taahhütleri açıklanmadı. Seismic'in B3 ya da bu bankalarla ilişkisi yok.",
+        "source": "crypto.news",
+        "date": "2026-11-27",
+        "url": "https://crypto.news/brazil-b3-banks-open-brl-stablecoin-launch/",
+        "image": "https://media.crypto.news/2025/03/crypto-news-Brazil-option02.webp"
+      },
+      {
+        "id": "orbital-fees",
         "category": "Pazar",
-        "title": "Aave Labs, stablecoin birikim uygulaması Aave App'i herkese açtı; erken erişimde bakiyeler 63 milyon doları geçti",
-        "angle": "Aave Labs, 25 Kasım'da Aave App'i herkese açtı; şirkete göre erken erişim döneminde bakiyeler üç aydan kısa sürede 63 milyon doları geçti. Uygulama banka hesabından para yatırılan, varlıkların kontrolünün kullanıcıda kaldığı hesaplar sunuyor ve yatırılan tutarları Aave Protocol'ün borç verme piyasalarına aktarıyor. Seismic bağlantısı: stablecoin bakiyesini banka bağlantılı bir tüketici uygulamasında sunmak, Seismic'in altyapı sağladığı neobank ürünlerinin de çalıştığı alan. Dikkat: habere göre bu fonlar banka mevduatı değil ve FDIC ya da SIPC güvencesi kapsamında değil; açıklanan oranlar değişkendir ve şirketin beyanıdır, yatırım önerisi olarak sunulmamalı. Seismic'in Aave Labs ile açıklanmış bir ilişkisi yok.",
-        "source": "The Block",
-        "date": "2026-11-25",
-        "url": "https://www.theblock.co/news/defi/2026-11-25-aave-labs-publicly-launches-savings-app-as-balances-top-63-million-446674"
+        "title": "Orbital: borsadan yapılan stablecoin ödemelerinde çekim ücreti küçük alışverişlerin maliyetini belirgin biçimde artırıyor",
+        "angle": "Orbital, 11 borsadan Ekim'de yapılan 24,8 milyon USDT ve USDC çekimini inceledi; şirkete göre işyerlerine gelen stablecoin ödemelerinin yaklaşık yüzde 70'i doğrudan borsalardan geliyor ve sabit çekim ücretleri 20 dolarlık bir alışverişe yüzde 10'a varan ek maliyet bindirebiliyor. Seismic bağlantısı: stablecoin ödemelerinin kullanıcıya gerçek maliyeti, paranın nerede tutulduğuna ve hangi ağdan gönderildiğine bağlı; bu, stablecoin hesabı ve ödeme akışı sunan altyapılar için de önemli bir soru. Dikkat: veriler Orbital'in kendi ödeme ve ücret verisine dayanıyor. Seismic'in Orbital ile ilişkisi yok.",
+        "source": "Orbital (PR Newswire)",
+        "date": "2026-11-27",
+        "url": "https://www.prnewswire.com/news-releases/stablecoin-fees-could-add-10-to-a-20-purchase-research-finds-ahead-of-black-friday-302951697.html"
       },
       {
-        "id": "tether-lemon",
-        "category": "Ödemeler",
-        "title": "Tether, USDT ve XAUT kullanımını Latin Amerika'da yaymak için Arjantinli fintech Lemon'a yatırım yaptı",
-        "angle": "Tether, 25 Kasım'da Arjantinli finans uygulaması Lemon'a yatırım yaptığını açıkladı; tutar açıklanmadı. Lemon, USDT'ye dayalı dijital dolar bakiyesi, sınır ötesi transfer ve Visa kartı sunuyor. Seismic bağlantısı: bir stablecoin ihraççısının doğrudan tüketici finans uygulamasına ortak olması, stablecoin bakiyeli hesap ve kart ürünlerinin dağıtım kanalı olarak önem kazandığını gösteriyor; Seismic de bu tür neobank ürünlerine altyapı sağlıyor. Dikkat: yatırımın tutarı ve koşulları bilinmiyor. Seismic'in Tether ya da Lemon ile açıklanmış bir ilişkisi yok.",
-        "source": "Crypto Briefing (Tether duyurusundan)",
-        "date": "2026-11-25",
-        "url": "https://cryptobriefing.com/tether-invests-lemon-latin-america/",
-        "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/25082037/library-tether-invests-in-lemon-to-expand-digital-asset-use-in-l-800x450.jpg"
+        "id": "hsbc-redcoin",
+        "category": "Bankalar",
+        "title": "HSBC: Hong Kong doları stablecoin'i RedCoin'i ilk ayında 100 binden fazla kişi kullandı",
+        "angle": "HSBC 26 Kasım'da, Ekim'de çıkardığı Hong Kong dolarına endeksli stablecoin RedCoin'i ilk ayda 100 binden fazla kişinin kullandığını açıkladı; RedCoin bankanın PayMe uygulamasında arkadaşlara gönderilebiliyor ve 100 binden fazla işyerinde ödemede kullanılabiliyor. Seismic bağlantısı: büyük bir bankanın stablecoin'i doğrudan bireysel müşterilerin günlük ödemelerine sokması, Seismic'in altyapı sağladığı stablecoin'li finans uygulamalarıyla aynı alanda somut bir kullanım verisi. Dikkat: rakam bankanın kendi açıklamasıdır. Seismic'in HSBC ile açıklanmış bir ilişkisi yok.",
+        "source": "South China Morning Post",
+        "date": "2026-11-26",
+        "url": "https://www.scmp.com/business/article/3375825/hsbc-sees-more-100000-users-its-stablecoin-first-month-launch"
       }
     ]
   },
   "news": [
+    {
+      "date": "2026-11-27",
+      "source": "crypto.news (Midnight Foundation duyurusundan)",
+      "kind": "Gizlilik",
+      "title": "Midnight Foundation, WEA Japan ve Netstars, işyerleri için gizli stablecoin ödemelerini incelemek üzere mutabakat zaptı imzaladı",
+      "summary": "Midnight Foundation, Japon blokzincir şirketi WEA Japan ve ödeme hizmeti sağlayıcısı Netstars, 27 Kasım'da imzaladıkları mutabakat zaptıyla stablecoin ödeme altyapısını birlikte inceleyeceklerini duyurdu. Çalışma alanları arasında işyeri bakiyelerinin ve ödeme kayıtlarının gizli tutulması, otomatik mutabakat, anahtar güvenliği ve gizlilik özelliklerinin Ethereum, Solana ve başka ağlarda kullanılabilmesi var. Habere göre Netstars'ın ödeme altyapısı yaklaşık 700 bin noktada çalışıyor. Ticari bir başlangıç tarihi açıklanmadı.",
+      "relevance": "İşletmelerin hassas ödeme bilgilerini herkese açmadan stablecoin ile ödeme alması, Seismic'in çözmeye çalıştığı sorunun ta kendisi. Yöntem farklı: Midnight sıfır bilgi ispatlarıyla seçici açıklama yapıyor, Seismic ise TEE tabanlı kendi zincirini kuruyor. Bu bir inceleme anlaşmasıdır, yayına girmiş bir ürün değil. Seismic'in bu şirketlerle açıklanmış bir ilişkisi yok.",
+      "url": "https://crypto.news/midnight-foundation-wea-japan-netstars-payments/",
+      "image": "https://media.crypto.news/2025/07/crypto-news-Payments-are-broken-and-stablecoins-are-rapidly-fixing-them-option04.webp"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "crypto.news (Valor Econômico'dan)",
+      "kind": "Bankalar",
+      "title": "Brezilya borsası B3 ve altı finans kuruluşu, Brezilya reali stablecoin'i Open BRL'yi 2027'nin ilk çeyreğinde başlatmayı planlıyor",
+      "summary": "Valor Econômico'nun 27 Kasım tarihli haberine göre Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander ve XP, B3'ün Open BRL girişimine katılıyor. Token'ı B3'ün bankacılık kolu Banco B3 çıkaracak ve her token bankada tutulan bir reale karşılık gelecek. Amaç, kurumların birbirine para aktarırken kullanabileceği ortak bir mutabakat varlığı oluşturmak; token'laştırılmış hisselerin takası da kapsamda. Kurumların finansal taahhütleri açıklanmadı.",
+      "relevance": "Rakip bankaların ortak bir stablecoin altyapısında buluşması, stablecoin'lerin kurumlar arası ödemelerde ana akım altyapıya dönüştüğünü gösteriyor; Seismic de fintech ve neobank'lara stablecoin tabanlı bankacılık altyapısı sağlıyor. Başlangıç tarihi bir plan; ürün henüz çalışmıyor. Seismic'in B3 ya da bu bankalarla açıklanmış bir ilişkisi yok.",
+      "url": "https://crypto.news/brazil-b3-banks-open-brl-stablecoin-launch/",
+      "image": "https://media.crypto.news/2025/03/crypto-news-Brazil-option02.webp"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "Orbital (PR Newswire)",
+      "kind": "Pazar",
+      "title": "Orbital araştırması: borsadan yapılan stablecoin ödemelerinde çekim ücreti 20 dolarlık bir alışverişe yüzde 10'a varan ek maliyet bindirebiliyor",
+      "summary": "Stablecoin ödeme şirketi Orbital, 11 büyük borsadan Ekim 2026'da yapılan, toplam 184,7 milyar dolarlık 24,8 milyon USDT ve USDC çekimini inceledi. Şirkete göre işyerlerine gelen stablecoin ödemelerinin yaklaşık yüzde 70'i doğrudan borsalardan geliyor ve borsaların sabit çekim ücretleri küçük alışverişlerde maliyeti belirgin biçimde artırıyor. Ücretler ağa ve borsaya göre büyük farklılık gösteriyor ve kısa sürede değişebiliyor.",
+      "relevance": "Stablecoin ödemelerinin gerçek maliyetinin zincir ücretinden ibaret olmadığını gösteren bir veri: paranın nerede tutulduğu ve hangi ağdan gönderildiği belirleyici. Bu, Seismic gibi altyapı sağlayıcılarının müşterilerine sunduğu hesap ve ödeme akışlarında da önemli bir konu. Bulgular Orbital'in kendi verisine dayanıyor. Seismic'in Orbital ile ilişkisi yok.",
+      "url": "https://www.prnewswire.com/news-releases/stablecoin-fees-could-add-10-to-a-20-purchase-research-finds-ahead-of-black-friday-302951697.html"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "Electronic Payments International",
+      "kind": "Ödemeler",
+      "title": "Visa ve NBX, hem geleneksel para hem stablecoin bakiyesiyle ödeme yapılabilen Visa Flex kartını 2027'de beş Avrupa ülkesinde çıkarmayı planlıyor",
+      "summary": "Visa, Norveçli kripto platformu Norwegian Block Exchange (NBX), Tieto Banktech ve IDT Finance, 26 Kasım'da NBX Visa Flex Card planını duyurdu. Visa Flexible Credential teknolojisiyle çalışacak kart, kullanıcının tek kartla geleneksel para bakiyesi ya da desteklenen bir stablecoin bakiyesi arasında seçim yapmasını sağlayacak. Kartın 2027'de önce banka kartı olarak Norveç, İsveç, Danimarka, Finlandiya ve Almanya'da, daha sonra Polonya'da sunulması planlanıyor; zamanla kredi gibi başka kaynakların eklenmesi de hedefleniyor.",
+      "relevance": "Stablecoin bakiyesini günlük kart harcamasına bağlamak, Seismic altyapısını kullanan neobank ve fintech'lerin de sunduğu kart ve çoklu para birimi hesaplarıyla aynı ihtiyaca yöneliyor. Kart henüz çıkmadı; tarih ve ülkeler plandır. Seismic'in bu şirketlerle açıklanmış bir ilişkisi yok.",
+      "url": "https://www.electronicpaymentsinternational.com/news/visa-and-nbx-plan-stablecoin-linked-payment-card/",
+      "image": "https://www.electronicpaymentsinternational.com/wp-content/uploads/sites/4/2026/11/visa-27thNov.jpg"
+    },
     {
       "date": "2026-11-26",
       "source": "South China Morning Post",
@@ -622,7 +650,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 907,
+        "views": 936,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -631,7 +659,7 @@ window.SEISMIC_PULSE = {
         "channel": "Stablecon, Stable Pulse",
         "title": "Seismic on What It Really Takes to Scale Stablecoin Payments",
         "duration": "46:43",
-        "views": 101,
+        "views": 103,
         "summary": "Dante Reminick ile sohbet: amaca özel Layer 1 üzerinde gizli stablecoin hesapları, fiat giriş-çıkış, likidite ve gömülü AML/KYT araçları."
       },
       {
@@ -640,7 +668,7 @@ window.SEISMIC_PULSE = {
         "channel": "11AM w/ Seed Club",
         "title": "Lyron Co Ting Keh, Founder of Seismic, on 11AM w/ Seed Club",
         "duration": "20:18",
-        "views": 311,
+        "views": 313,
         "summary": "10 milyon dolarlık turun hemen ardından Seed Club'ın günlük yayınında Seismic'in yol haritası."
       },
       {
@@ -718,19 +746,19 @@ window.SEISMIC_PULSE = {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.669"
+        "followers": "3.664"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.078"
+        "followers": "4.073"
       },
       {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.194"
+        "followers": "3.190"
       }
     ],
     "posts": [
@@ -843,8 +871,8 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-26T06:37:22Z",
-    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–26 Kasım arasında ana dallara yeni commit düşmedi.",
+    "checkedAt": "2026-11-27T22:30:49Z",
+    "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–27 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
         "name": "seismic-reth",
