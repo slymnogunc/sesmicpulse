@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-28T04:36:00Z",
+  "updatedAt": "2026-11-28T06:36:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -90,6 +90,15 @@ window.SEISMIC_PULSE = {
   },
   "news": [
     {
+      "date": "2026-11-28",
+      "source": "The Currency Analytics (Aon videosundan)",
+      "kind": "Kurumsal",
+      "title": "Aon, Solana üzerinde iki sigorta primini stablecoin ile tahsil ettiğini açıkladı",
+      "summary": "Habere göre sigorta brokeri Aon, 27 Kasım'da paylaştığı bir videoda Solana üzerinde iki sigorta priminin stablecoin ile ödendiğini, Ethereum'daki işlemle birlikte toplamın üçe çıktığını duyurdu. Mart ayındaki pilot Coinbase ve Paxos ile yapılmış, Ethereum'da USDC, Solana'da PayPal USD kullanılmıştı. Aon son işlemin tutarını, müşterisini, hangi stablecoin'in kullanıldığını ve tarihini açıklamadı.",
+      "relevance": "Stablecoin'lerin alım-satım dışında, şirketler arası sıradan ödemelerde kullanıldığını gösteren bir örnek. Seismic'in bu işlemle bir ilişkisi yok; bağlantı yalnızca stablecoin ödeme altyapısı konusunun ortak olması. Ayrıntıların çoğu açıklanmadığı için haber sınırlı bilgiye dayanıyor.",
+      "url": "https://thecurrencyanalytics.com/stable-coins/aon-settles-third-stablecoin-insurance-premium-solana-311249"
+    },
+    {
       "date": "2026-11-27",
       "source": "The Block",
       "kind": "Düzenleme",
@@ -145,6 +154,15 @@ window.SEISMIC_PULSE = {
       "relevance": "Stablecoin bakiyesini günlük kart harcamasına bağlamak, Seismic altyapısını kullanan neobank ve fintech'lerin de sunduğu kart ve çoklu para birimi hesaplarıyla aynı ihtiyaca yöneliyor. Kart henüz çıkmadı; tarih ve ülkeler plandır. Seismic'in bu şirketlerle açıklanmış bir ilişkisi yok.",
       "url": "https://www.electronicpaymentsinternational.com/news/visa-and-nbx-plan-stablecoin-linked-payment-card/",
       "image": "https://www.electronicpaymentsinternational.com/wp-content/uploads/sites/4/2026/11/visa-27thNov.jpg"
+    },
+    {
+      "date": "2026-11-26",
+      "source": "Forbes",
+      "kind": "Pazar",
+      "title": "Forbes: stablecoin arzı zirveden yaklaşık 20 milyar dolar geriledi, ödeme tarafındaki kullanım sürüyor",
+      "summary": "Forbes'un DefiLlama, Talos ve Kaiko verilerine dayanan yazısına göre dolar stablecoin'lerinin toplam arzı Mayıs'taki zirvesinden yaklaşık 20,7 milyar dolar azalarak 282 milyar dolar dolayına indi; yalnızca Kasım'da USDT yaklaşık 8 milyar dolar kaybetti. Yazı çıkışların büyük bölümünü alım-satım şirketlerine ve kurumsal sahiplere bağlıyor. Buna karşılık USDC ve USDT'nin günlük aktif adres sayısı bir yılda yüzde 55–63 arttı.",
+      "relevance": "Arzdaki düşüşün alım-satım kaynaklı olduğu, ödeme amaçlı kullanımın ise büyümeyi sürdürdüğü ayrımı, Seismic'in odaklandığı stablecoin ödeme ve neobank altyapısı alanı için bağlam sağlıyor. Yazıda Seismic'ten söz edilmiyor; rakamlar üçüncü taraf veri sağlayıcılarına ait.",
+      "url": "https://www.forbes.com/sites/murtuza-merchant/2026/11/26/stablecoins-lose-20-billion-as-traders-cash-out-payments-hold-up/"
     },
     {
       "date": "2026-11-26",
@@ -776,7 +794,7 @@ window.SEISMIC_PULSE = {
         "handle": "heathcliff_eth",
         "name": "Heathcliff",
         "role": "Topluluk yöneticisi",
-        "followers": "3.190"
+        "followers": "3.191"
       }
     ],
     "posts": [
@@ -889,7 +907,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-28T04:36:00Z",
+    "checkedAt": "2026-11-28T06:36:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–27 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
