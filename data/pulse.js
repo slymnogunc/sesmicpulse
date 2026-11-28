@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-27T22:53:31Z",
+  "updatedAt": "2026-11-28T00:37:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,24 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-27",
+      "source": "The Block",
+      "kind": "Düzenleme",
+      "title": "Japonya Merkez Bankası yöneticisi: stablecoin'lerin karşılık varlıkları sıkı kurallara bağlanmalı",
+      "summary": "Japonya Merkez Bankası İcra Direktörü Kazushige Kamiyama, 27 Kasım'da Tokyo'daki bir IMF seminerinde yaptığı konuşmada stablecoin'lerin karşılık varlıklarının ve işleyiş yapılarının sıkı biçimde denetlenmesi gerektiğini söyledi. Kamiyama, piyasanın parçalanmaması için stablecoin'lerin merkez bankası parasıyla bağlantısının bilinçli biçimde tasarlanmasını istedi; stablecoin'lerin ve token'laştırılmış mevduatların öteki dijital para türleriyle birlikte var olacağını öngördü. Haberde bankanın dağıtık defter deneme ortamı ve BIS'in Project Agora çalışmasına katılımı da anlatılıyor.",
+      "relevance": "Karşılık varlıklarına ve işleyişe dair kurallar, stablecoin ile çalışan her altyapı sağlayıcısının uyması gereken çerçeveyi belirliyor; Seismic de fintech ve neobank'lara stablecoin tabanlı bankacılık altyapısı sağlıyor. Bunlar bir yöneticinin konuşmasındaki görüşlerdir, yayımlanmış bir düzenleme değil. Seismic'in Japonya Merkez Bankası ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "Altcoin Buzz",
+      "kind": "Düzenleme",
+      "title": "ASEAN+3 ülkeleri, ödeme bağlantısı ve stablecoin düzenlemesinde izlenecek yöntemi 2026 sonuna kadar belirlemeyi hedefliyor",
+      "summary": "ASEAN+3 ülkelerinin maliye ve merkez bankası temsilcileri 25–26 Kasım'da Kyoto'da toplandı. Temsilciler, bakanların 3 Mayıs'ta verdiği görev uyarınca ödeme sistemlerinin birbirine bağlanması ve stablecoin düzenlemesi konusunda nasıl çalışılacağını 2026 sonuna kadar kararlaştıracak; seçenekler arasında ayrı bir çalışma grubu kurulması da var. Sonuçlar Mayıs 2027'de Nagoya'daki bakanlar toplantısına sunulacak. Habere göre eş başkanların açıklamasında çalışma grubunun üyeleri, başkanı, yetkileri ya da ara tarihleri yer almıyor.",
+      "relevance": "Seismic'in müşterilerinden Reah Güneydoğu Asya'daki işletmelere, Prism ise Vietnam'daki yabancılara hizmet veriyor; bölgede ödeme sistemlerinin bağlanması ve stablecoin kurallarının uyumlaşması bu tür ürünlerin çalışma koşullarını etkiler. Ortada bağlayıcı bir kural yok, yalnızca görüşme süreci var. Seismic'in bu süreçle açıklanmış bir ilişkisi yok.",
+      "url": "https://altcoinbuzz.io/asean-3-gives-deputies-until-end-of-2026-on-stablecoin-rules"
+    },
     {
       "date": "2026-11-27",
       "source": "crypto.news (Midnight Foundation duyurusundan)",
@@ -650,7 +668,7 @@ window.SEISMIC_PULSE = {
         "channel": "Octopus Fintech Hub",
         "title": "Why Banks Say No to Stablecoin Startups — and How Seismic Got a Yes",
         "duration": "29:59",
-        "views": 936,
+        "views": 937,
         "summary": "Bankaları neyin ikna ettiği, Seismic'in köprü yerine neden kendi zincirini kurduğu ve uyumun neden mühendislik problemi olduğu."
       },
       {
@@ -704,7 +722,7 @@ window.SEISMIC_PULSE = {
         "channel": "UP TOP TV",
         "title": "EP 061 | LYRON CO TING KEH | SEISMIC",
         "duration": "49:54",
-        "views": 1571,
+        "views": 1572,
         "summary": "Stanford ve yapay zekâdan kriptoya geçiş, Seismic'in kuruluşu ve ekip kurma üzerine uzun sohbet."
       },
       {
@@ -740,7 +758,7 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.237"
+        "followers": "9.234"
       },
       {
         "handle": "xealistt",
@@ -871,7 +889,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-27T22:53:31Z",
+    "checkedAt": "2026-11-28T00:37:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–27 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
