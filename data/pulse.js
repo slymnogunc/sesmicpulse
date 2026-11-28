@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-28T10:36:00Z",
+  "updatedAt": "2026-11-28T12:40:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -116,6 +116,15 @@ window.SEISMIC_PULSE = {
       "summary": "Habere göre sigorta brokeri Aon, 27 Kasım'da paylaştığı bir videoda Solana üzerinde iki sigorta priminin stablecoin ile ödendiğini, Ethereum'daki işlemle birlikte toplamın üçe çıktığını duyurdu. Mart ayındaki pilot Coinbase ve Paxos ile yapılmış, Ethereum'da USDC, Solana'da PayPal USD kullanılmıştı. Aon son işlemin tutarını, müşterisini, hangi stablecoin'in kullanıldığını ve tarihini açıklamadı.",
       "relevance": "Stablecoin'lerin alım-satım dışında, şirketler arası sıradan ödemelerde kullanıldığını gösteren bir örnek. Seismic'in bu işlemle bir ilişkisi yok; bağlantı yalnızca stablecoin ödeme altyapısı konusunun ortak olması. Ayrıntıların çoğu açıklanmadığı için haber sınırlı bilgiye dayanıyor.",
       "url": "https://thecurrencyanalytics.com/stable-coins/aon-settles-third-stablecoin-insurance-premium-solana-311249"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "CoinDesk",
+      "kind": "Bankalar",
+      "title": "Avrupa Merkez Bankası başkanlığına aday gösterilen Hernández de Cos, stablecoin yerine token'laştırılmış banka mevduatını öne çıkarıyor",
+      "summary": "Avrupa Birliği Zirvesi 26 Kasım'da, eski İspanya Merkez Bankası başkanı Pablo Hernández de Cos'u Christine Lagarde'ın yerine Avrupa Merkez Bankası başkanlığına aday gösterdiğini duyurdu. CoinDesk'in derlemesine göre Hernández de Cos, bankaların parayı zincir üstünde aktarıp merkez bankası rezervleriyle mutabakat yaptığı token'laştırılmış mevduatı destekliyor; Ağustos'taki Jackson Hole toplantısında ise stablecoin'lerin büyük ölçekte güvenilir bir ödeme aracı olmadığını savunmuş, dolar stablecoin'lerinin ABD dışında yaygınlaşmasının para politikasını zayıflatabileceği ve bankalardan mevduat çekebileceği uyarısını yapmıştı. Dijital euro hazırlıklarını da desteklemişti. Atama için Avrupa Parlamentosu ve AMB Yönetim Konseyi'ne danışılması gerekiyor; Lagarde 7 Şubat'ta görevden ayrılıyor.",
+      "relevance": "Avro bölgesinde stablecoin'lere ve banka parasının zincir üstü biçimlerine nasıl bakılacağı, Avrupa'da stablecoin tabanlı hesap ve ödeme sunan fintech ve neobank'ların, dolayısıyla Seismic'in de çalıştığı alanın düzenleyici ortamını etkiliyor. Bu bir adaylıktır, atama henüz kesinleşmedi; aktarılan görüşler yeni bir politika kararı değil, adayın daha önceki açıklamalarıdır. Seismic'in Avrupa Merkez Bankası ile bir ilişkisi yok.",
+      "url": "https://www.coindesk.com/policy/2026/11/27/next-ecb-chief-favors-tokenized-bank-deposits-over-stablecoins-and-bitcoin"
     },
     {
       "date": "2026-11-27",
@@ -795,19 +804,19 @@ window.SEISMIC_PULSE = {
         "handle": "lyronctk",
         "name": "Lyron",
         "role": "Kurucu",
-        "followers": "9.233"
+        "followers": "9.234"
       },
       {
         "handle": "xealistt",
         "name": "Xealist",
         "role": "Topluluk yöneticisi",
-        "followers": "3.664"
+        "followers": "3.665"
       },
       {
         "handle": "NoxxW3",
         "name": "Noxx",
         "role": "Topluluk yöneticisi",
-        "followers": "4.071"
+        "followers": "4.072"
       },
       {
         "handle": "heathcliff_eth",
@@ -926,7 +935,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-28T10:36:00Z",
+    "checkedAt": "2026-11-28T12:40:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–27 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
