@@ -3,7 +3,7 @@
    Discord içerikleri için data/discord.js dosyasını (veya admin.html sayfasını) kullanın.
    Şema: GUNCELLEME-REHBERI.md */
 window.SEISMIC_PULSE = {
-  "updatedAt": "2026-11-28T06:36:00Z",
+  "updatedAt": "2026-11-28T08:45:00Z",
   "lead": {
     "kind": "YouTube",
     "date": "2026-11-16",
@@ -89,6 +89,25 @@ window.SEISMIC_PULSE = {
     ]
   },
   "news": [
+    {
+      "date": "2026-11-28",
+      "source": "Binance basın bülteni (PR Newswire)",
+      "kind": "Ödemeler",
+      "title": "Binance Pay, DK Bank ve Tether, Bhutan'daki işyerlerinde stablecoin ödemelerini yaymak için mutabakat zaptı imzaladı",
+      "summary": "Binance Pay, Gelephu Mindfulness City'nin resmi bankası DK Bank ve Tether, 28 Kasım'da Bangkok'taki Binance Blockchain Week'te Bhutan'daki işyerlerine USDT ile başlayarak stablecoin ödemelerini getirmek için mutabakat zaptı imzaladı. Anlaşma, Binance Pay ile DK Bank'ın Mayıs 2025'te turizm için kurduğu ödeme ağına dayanıyor; bu ağda 3.700'den fazla işyeri ödeme kabul ediyor ve işyerleri ödemeyi Bhutan ngultrumu olarak alıyor. Uygun kullanıcılara, işlem başına en çok 5 dolar olmak üzere yüzde 5 iade planlanıyor. Mutabakat zaptı bağlayıcı değil; başlangıç tarihi ve iade koşulları tarafların nihai anlaşmasına bağlı.",
+      "relevance": "Stablecoin ile ödeyen müşteri ve yerel para birimiyle tahsil eden işyeri modeli, Seismic'in fintech ve neobank'lara sağladığı stablecoin tabanlı ödeme altyapısıyla aynı konu alanında. Bu bağlayıcı olmayan bir mutabakat zaptıdır, yayına alınmış bir ürün değil. Seismic'in Binance Pay, DK Bank veya Tether ile açıklanmış bir ilişkisi yok.",
+      "url": "https://www.prnewswire.com/news-releases/binance-pay-dk-bank-and-tether-sign-mou-to-expand-stablecoin-payments-to-merchants-across-bhutan-starting-with-usd-302952011.html"
+    },
+    {
+      "date": "2026-11-28",
+      "source": "Crypto Briefing",
+      "kind": "Pazar",
+      "title": "World Liberty Financial'ın stablecoin'i USD1, WLFI'daki sert düşüş sırasında 1 doların altına indi",
+      "summary": "Crypto Briefing'e göre Trump ailesinin desteklediği World Liberty Financial'ın stablecoin'i USD1, 28 Kasım'da 0,94–0,96 dolar aralığında işlem gördü. Aynı gün projenin WLFI token'ı birkaç saat içinde yaklaşık yüzde 50 değer kaybetti; projenin rezerv cüzdanı yaklaşık 20 milyon dolarlık Ethereum bağlantılı varlığı yaklaşık 19 milyon dolar zararla sattı. USD1'i BitGo Trust Company ihraç ediyor ve yalnızca yetkili kuruluşlar 1'e 1 itfa yapabiliyor; habere göre bu kısıt, panik anında borsa fiyatının 1 dolardan uzaklaşmasına yol açabiliyor. TokenPost, fiyatın 07.10 UTC'de 0,98 dolara toparlandığını ancak hâlâ 1 doların altında olduğunu bildirdi.",
+      "relevance": "Bir stablecoin'in itfa düzeninin ve karşılık yapısının baskı altında nasıl davrandığını gösteren bir olay; stablecoin üzerine ödeme altyapısı kuran herkes için ihraççı riski konusunu gündeme getiriyor. Seismic'in USD1 veya World Liberty Financial ile açıklanmış bir ilişkisi yok. Fiyatlar hızla değişiyor; haberdeki rakamlar yayın anına aittir ve bu bir yatırım değerlendirmesi değildir.",
+      "url": "https://cryptobriefing.com/trump-usd1-stablecoin-depegs-dollar/",
+      "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/28022811/library-trump-family-s-usd1-stablecoin-slips-below-its-dollar-pe-800x450.jpg"
+    },
     {
       "date": "2026-11-28",
       "source": "The Currency Analytics (Aon videosundan)",
@@ -907,7 +926,7 @@ window.SEISMIC_PULSE = {
   },
   "github": {
     "org": "SeismicSystems",
-    "checkedAt": "2026-11-28T06:36:00Z",
+    "checkedAt": "2026-11-28T08:45:00Z",
     "status": "Ana dallarda son değişiklik 9 Kasım'da. 10–27 Kasım arasında ana dallara yeni commit düşmedi.",
     "repos": [
       {
